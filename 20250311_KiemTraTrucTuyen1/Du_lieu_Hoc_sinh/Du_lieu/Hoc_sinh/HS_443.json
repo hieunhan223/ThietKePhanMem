@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Trương đắc Quyền",
+	"Ma_so": "HS_443",
+	"CMND": "040215117",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-10-16T17:00:00.000Z",
+	"Dia_chi": "533 Nguyễn quyết quyết Thắng,Phường 8,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.3",
+		"Ma_so": "LOP_8.3",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-04T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_443",
+	"Mat_khau": "HS_443"
+}

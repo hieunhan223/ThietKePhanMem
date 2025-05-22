@@ -1,0 +1,40 @@
+{
+	"Ho_ten": "Lâm ngọc Trang",
+	"Ma_so": "HS_348",
+	"CMND": "010427217",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-05-20T17:00:00.000Z",
+	"Dia_chi": "264 Nguyễn quyết Hoa,Phường 1,Quận 2, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.5",
+		"Ma_so": "LOP_7.5",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-17T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-04T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-11T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-18T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-13T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_348",
+	"Mat_khau": "HS_348"
+}

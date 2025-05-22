@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Nguyễn thành Toàn",
+	"Ma_so": "HS_646",
+	"CMND": "080541510",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-10-03T17:00:00.000Z",
+	"Dia_chi": "6 Võ triệu phúc Khiêm,Phường 7,Quận Phú nhuận, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.3",
+		"Ma_so": "LOP_9.3",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-10T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-06T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-20T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_646",
+	"Mat_khau": "HS_646"
+}

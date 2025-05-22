@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Bàng hữu Thiền",
+	"Ma_so": "HS_384",
+	"CMND": "030220072",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-02-05T17:00:00.000Z",
+	"Dia_chi": "403 Bàng thị thảo Nguyên,Phường 9,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.1",
+		"Ma_so": "LOP_8.1",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-03T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-08T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-17T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_384",
+	"Mat_khau": "HS_384"
+}

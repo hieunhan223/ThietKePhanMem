@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Mai thị đổ Quyên",
+	"Ma_so": "HS_377",
+	"CMND": "020718386",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-12-12T17:00:00.000Z",
+	"Dia_chi": "340 Trần lê Hiền,Phường 1,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.1",
+		"Ma_so": "LOP_8.1",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-05T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-19T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-13T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-10-01T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_377",
+	"Mat_khau": "HS_377"
+}

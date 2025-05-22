@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Thái đình phi Nhung",
+	"Ma_so": "HS_60",
+	"CMND": "010343750",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-05-04T17:00:00.000Z",
+	"Dia_chi": "251 Triệu đình Thúy,Phường 7,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.2",
+		"Ma_so": "LOP_6.2",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-10T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_60",
+	"Mat_khau": "HS_60"
+}

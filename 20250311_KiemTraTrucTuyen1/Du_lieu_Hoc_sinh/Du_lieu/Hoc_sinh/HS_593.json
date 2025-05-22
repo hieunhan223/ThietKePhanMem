@@ -1,0 +1,40 @@
+{
+	"Ho_ten": "Liên thanh Thiết",
+	"Ma_so": "HS_593",
+	"CMND": "030753300",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-05-08T17:00:00.000Z",
+	"Dia_chi": "463 Phạm an Duy,Phường 2,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.2",
+		"Ma_so": "LOP_9.2",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-16T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-15T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-11-17T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-02T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-11-17T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_593",
+	"Mat_khau": "HS_593"
+}

@@ -1,0 +1,52 @@
+{
+	"Ho_ten": "Bành chiến Xuân",
+	"Ma_so": "HS_789",
+	"CMND": "070134257",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-03-23T17:00:00.000Z",
+	"Dia_chi": "153 Nguyễn văn Tâm,Phường 4,Quận Nhà bè, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.6",
+		"Ma_so": "LOP_9.6",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-07T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-11T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-11T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-19T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-04T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-20T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-10-06T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-05T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_789",
+	"Mat_khau": "HS_789"
+}

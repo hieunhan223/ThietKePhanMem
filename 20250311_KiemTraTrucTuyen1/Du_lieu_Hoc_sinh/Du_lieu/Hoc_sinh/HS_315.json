@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Nguyễn chiến Tấn",
+	"Ma_so": "HS_315",
+	"CMND": "060335620",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-03-13T17:00:00.000Z",
+	"Dia_chi": "527 Đặng xuân Thùy,Phường 4,Quận 1, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.4",
+		"Ma_so": "LOP_7.4",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-21T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-20T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-06T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-15T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		}
+	],
+	"Ten_Dang_nhap": "HS_315",
+	"Mat_khau": "HS_315"
+}

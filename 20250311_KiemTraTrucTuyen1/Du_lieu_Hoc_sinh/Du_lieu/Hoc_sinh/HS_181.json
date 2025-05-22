@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Mai đình Bích",
+	"Ma_so": "HS_181",
+	"CMND": "080303468",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-03-04T17:00:00.000Z",
+	"Dia_chi": "231 Ngô an minh Tâm,Phường 9,Quận 3, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.1",
+		"Ma_so": "LOP_7.1",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_181",
+	"Mat_khau": "HS_181"
+}

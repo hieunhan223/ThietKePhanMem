@@ -1,0 +1,48 @@
+{
+	"Ho_ten": "Hà gia Tạo",
+	"Ma_so": "HS_531",
+	"CMND": "020611205",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-04-19T17:00:00.000Z",
+	"Dia_chi": "467 Dương phước Thạch,Phường 4,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.5",
+		"Ma_so": "LOP_8.5",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-04T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-09-30T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-09-30T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-07T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-04T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-02T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-02T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_531",
+	"Mat_khau": "HS_531"
+}

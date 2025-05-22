@@ -1,0 +1,52 @@
+{
+	"Ho_ten": "Trang thế Nguyên",
+	"Ma_so": "HS_412",
+	"CMND": "030685641",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-07-09T17:00:00.000Z",
+	"Dia_chi": "325 Bạch an minh Toàn,Phường 4,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.2",
+		"Ma_so": "LOP_8.2",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-18T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-12T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-12T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-01T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-05T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-11-18T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-17T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-14T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_412",
+	"Mat_khau": "HS_412"
+}

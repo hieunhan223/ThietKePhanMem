@@ -1,0 +1,40 @@
+{
+	"Ho_ten": "Trần quyết Khóa",
+	"Ma_so": "HS_212",
+	"CMND": "080688747",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-02-04T17:00:00.000Z",
+	"Dia_chi": "376 Thái thiện Viễn,Phường 8,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.1",
+		"Ma_so": "LOP_7.1",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-08T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-19T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-10T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-05T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-18T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_212",
+	"Mat_khau": "HS_212"
+}

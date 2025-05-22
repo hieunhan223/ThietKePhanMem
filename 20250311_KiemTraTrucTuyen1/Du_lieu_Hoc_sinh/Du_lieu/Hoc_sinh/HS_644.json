@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Trường ngọc phi Hùng",
+	"Ma_so": "HS_644",
+	"CMND": "020262264",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-12-18T17:00:00.000Z",
+	"Dia_chi": "349 Phi triệu Lan,Phường 9,Quận 4, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.3",
+		"Ma_so": "LOP_9.3",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-18T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		}
+	],
+	"Ten_Dang_nhap": "HS_644",
+	"Mat_khau": "HS_644"
+}

@@ -1,0 +1,40 @@
+{
+	"Ho_ten": "Bùi tiến Dung",
+	"Ma_so": "HS_611",
+	"CMND": "050607003",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-08-31T17:00:00.000Z",
+	"Dia_chi": "448 Nguyễn hữu Trúc,Phường 10,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.2",
+		"Ma_so": "LOP_9.2",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-15T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-11T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-11T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-02T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-12T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_611",
+	"Mat_khau": "HS_611"
+}

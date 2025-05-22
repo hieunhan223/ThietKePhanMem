@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Hà kiên Bắc",
+	"Ma_so": "HS_159",
+	"CMND": "040373232",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-11-19T17:00:00.000Z",
+	"Dia_chi": "145 Trần thiện Quyền,Phường 3,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.5",
+		"Ma_so": "LOP_6.5",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_159",
+	"Mat_khau": "HS_159"
+}

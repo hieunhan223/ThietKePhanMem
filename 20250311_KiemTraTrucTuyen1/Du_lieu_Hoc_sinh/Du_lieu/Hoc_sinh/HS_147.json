@@ -1,0 +1,48 @@
+{
+	"Ho_ten": "Lý thanh Duy",
+	"Ma_so": "HS_147",
+	"CMND": "080861146",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-05-26T17:00:00.000Z",
+	"Dia_chi": "298 Bành như Thắng,Phường 9,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.5",
+		"Ma_so": "LOP_6.5",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-07T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-10T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-02T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-19T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-10-31T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-10-19T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-17T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_147",
+	"Mat_khau": "HS_147"
+}

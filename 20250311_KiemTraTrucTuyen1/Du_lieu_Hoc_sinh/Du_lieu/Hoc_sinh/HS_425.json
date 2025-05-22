@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Lê bích Hoan",
+	"Ma_so": "HS_425",
+	"CMND": "010271716",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-07-22T17:00:00.000Z",
+	"Dia_chi": "464 Đồng thành phi Hùng,Phường 6,Quận Nhà bè, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.2",
+		"Ma_so": "LOP_8.2",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-09-30T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-11-14T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_425",
+	"Mat_khau": "HS_425"
+}

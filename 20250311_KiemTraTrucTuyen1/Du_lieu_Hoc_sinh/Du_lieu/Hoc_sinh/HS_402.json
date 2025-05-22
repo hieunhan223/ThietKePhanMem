@@ -1,0 +1,44 @@
+{
+	"Ho_ten": "Nhữ gia Bình",
+	"Ma_so": "HS_402",
+	"CMND": "080101183",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-11-24T17:00:00.000Z",
+	"Dia_chi": "36 Nguyễn phước sơn Tài,Phường 7,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.2",
+		"Ma_so": "LOP_8.2",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-21T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-10-05T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-11T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-10T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-20T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-15T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_402",
+	"Mat_khau": "HS_402"
+}

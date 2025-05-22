@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Triệu văn bích Châu",
+	"Ma_so": "HS_665",
+	"CMND": "020478441",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-05-16T17:00:00.000Z",
+	"Dia_chi": "130 Phi bích Sơn,Phường 7,Quận 12, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.4",
+		"Ma_so": "LOP_9.4",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-18T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-20T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-12T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_665",
+	"Mat_khau": "HS_665"
+}

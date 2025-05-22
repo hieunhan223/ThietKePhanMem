@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Đồng triệu Hùng",
+	"Ma_so": "HS_80",
+	"CMND": "010626006",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-05-26T17:00:00.000Z",
+	"Dia_chi": "279 Bành quyết Lan,Phường 5,Quận 3, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.3",
+		"Ma_so": "LOP_6.3",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-18T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-12T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_80",
+	"Mat_khau": "HS_80"
+}

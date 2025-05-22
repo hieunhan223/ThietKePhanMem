@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Hồ an Quyên",
+	"Ma_so": "HS_240",
+	"CMND": "080852435",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-03-13T17:00:00.000Z",
+	"Dia_chi": "253 Nguyễn thanh kiên Trường,Phường 1,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.2",
+		"Ma_so": "LOP_7.2",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_240",
+	"Mat_khau": "HS_240"
+}

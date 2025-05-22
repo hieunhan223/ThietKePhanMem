@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Bùi như Tráng",
+	"Ma_so": "HS_529",
+	"CMND": "080706722",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-04-07T17:00:00.000Z",
+	"Dia_chi": "87 Tô duy thụy Khuê,Phường 4,Quận 2, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.5",
+		"Ma_so": "LOP_8.5",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-11T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-14T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_529",
+	"Mat_khau": "HS_529"
+}

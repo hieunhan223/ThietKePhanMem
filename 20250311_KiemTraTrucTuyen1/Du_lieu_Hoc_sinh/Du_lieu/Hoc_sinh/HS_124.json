@@ -1,0 +1,48 @@
+{
+	"Ho_ten": "Ôn triệu thảo Nguyên",
+	"Ma_so": "HS_124",
+	"CMND": "060886377",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-07-07T17:00:00.000Z",
+	"Dia_chi": "523 Đinh lâm Đài,Phường 1,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.4",
+		"Ma_so": "LOP_6.4",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-14T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-31T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-10-11T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-04T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-07T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-03T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-04T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		}
+	],
+	"Ten_Dang_nhap": "HS_124",
+	"Mat_khau": "HS_124"
+}

@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Đinh thế Quyền",
+	"Ma_so": "HS_301",
+	"CMND": "030601827",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-05-14T17:00:00.000Z",
+	"Dia_chi": "112 Nguyễn đình Hiền,Phường 2,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.4",
+		"Ma_so": "LOP_7.4",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-17T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_301",
+	"Mat_khau": "HS_301"
+}

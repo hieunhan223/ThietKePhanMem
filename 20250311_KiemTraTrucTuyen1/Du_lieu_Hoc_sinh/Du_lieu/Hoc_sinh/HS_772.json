@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Thái thanh chiến Thắng",
+	"Ma_so": "HS_772",
+	"CMND": "050865255",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-08-12T17:00:00.000Z",
+	"Dia_chi": "62 Đổ kim minh Lan,Phường 8,Quận 1, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_772",
+	"Mat_khau": "HS_772"
+}

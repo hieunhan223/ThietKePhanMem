@@ -1,0 +1,44 @@
+{
+	"Ho_ten": "Đặng hồng Thanh",
+	"Ma_so": "HS_607",
+	"CMND": "070654665",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-08-10T17:00:00.000Z",
+	"Dia_chi": "123 Trần thanh minh Toàn,Phường 3,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.2",
+		"Ma_so": "LOP_9.2",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-14T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-19T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-06T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-20T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-18T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-02T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_607",
+	"Mat_khau": "HS_607"
+}

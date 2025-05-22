@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Trầm kiên thục Hiền",
+	"Ma_so": "HS_791",
+	"CMND": "030733545",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-07-20T17:00:00.000Z",
+	"Dia_chi": "196 Trương phước Mai,Phường 4,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.6",
+		"Ma_so": "LOP_9.6",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-08T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-17T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-12T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_791",
+	"Mat_khau": "HS_791"
+}

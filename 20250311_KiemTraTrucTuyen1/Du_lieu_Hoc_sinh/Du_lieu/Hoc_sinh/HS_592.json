@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Hứa phước hồng Thu",
+	"Ma_so": "HS_592",
+	"CMND": "050184386",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-10-19T17:00:00.000Z",
+	"Dia_chi": "286 Ngô hửu Trang,Phường 9,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.2",
+		"Ma_so": "LOP_9.2",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-09-30T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-16T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_592",
+	"Mat_khau": "HS_592"
+}

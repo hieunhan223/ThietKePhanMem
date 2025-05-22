@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Phạm kiên Trúc",
+	"Ma_so": "HS_473",
+	"CMND": "040810836",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-06-04T17:00:00.000Z",
+	"Dia_chi": "469 Đồng duy Quân,Phường 7,Quận 2, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.4",
+		"Ma_so": "LOP_8.4",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-07T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-13T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_473",
+	"Mat_khau": "HS_473"
+}

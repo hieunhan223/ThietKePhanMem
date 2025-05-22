@@ -1,0 +1,40 @@
+{
+	"Ho_ten": "Lý đình Thanh",
+	"Ma_so": "HS_225",
+	"CMND": "070801330",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-12-09T17:00:00.000Z",
+	"Dia_chi": "369 Phi thành Lý,Phường 2,Quận 5, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.2",
+		"Ma_so": "LOP_7.2",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-13T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-11T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-21T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-15T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-05T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_225",
+	"Mat_khau": "HS_225"
+}

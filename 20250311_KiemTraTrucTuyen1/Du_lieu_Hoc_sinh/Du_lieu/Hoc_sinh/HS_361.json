@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Ngô ngọc Thạch",
+	"Ma_so": "HS_361",
+	"CMND": "030282275",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-02-21T17:00:00.000Z",
+	"Dia_chi": "344 Trường lâm ngọc Dung,Phường 6,Quận 1, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.5",
+		"Ma_so": "LOP_7.5",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_361",
+	"Mat_khau": "HS_361"
+}

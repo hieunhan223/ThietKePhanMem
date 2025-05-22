@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Nguyễn thành sơn Hà",
+	"Ma_so": "HS_588",
+	"CMND": "060165666",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-02-24T17:00:00.000Z",
+	"Dia_chi": "168 Bành cao Lộc,Phường 6,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.2",
+		"Ma_so": "LOP_9.2",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-21T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-04T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-04T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-07T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_588",
+	"Mat_khau": "HS_588"
+}

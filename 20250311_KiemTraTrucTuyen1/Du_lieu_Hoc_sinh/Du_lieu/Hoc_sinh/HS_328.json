@@ -1,0 +1,52 @@
+{
+	"Ho_ten": "Kiều sơn Viễn",
+	"Ma_so": "HS_328",
+	"CMND": "020220156",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-12-11T17:00:00.000Z",
+	"Dia_chi": "364 Nguyên kiên phi Sơn,Phường 4,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.5",
+		"Ma_so": "LOP_7.5",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-08T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-03T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-16T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-18T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-19T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-19T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-15T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-01T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		}
+	],
+	"Ten_Dang_nhap": "HS_328",
+	"Mat_khau": "HS_328"
+}

@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Nguyên xuân Đông",
+	"Ma_so": "HS_302",
+	"CMND": "030158652",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-03-06T17:00:00.000Z",
+	"Dia_chi": "57 Đặng đình Châu,Phường 8,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.4",
+		"Ma_so": "LOP_7.4",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-04T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-12T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_302",
+	"Mat_khau": "HS_302"
+}

@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Lâm hùng kim Hồng",
+	"Ma_so": "HS_91",
+	"CMND": "080686576",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-12-12T17:00:00.000Z",
+	"Dia_chi": "510 Triệu hồng minh Toàn,Phường 5,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.3",
+		"Ma_so": "LOP_6.3",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_91",
+	"Mat_khau": "HS_91"
+}

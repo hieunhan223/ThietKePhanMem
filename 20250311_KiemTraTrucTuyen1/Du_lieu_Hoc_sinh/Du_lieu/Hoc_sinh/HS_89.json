@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Dương bùi Liên",
+	"Ma_so": "HS_89",
+	"CMND": "050523416",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-02-09T17:00:00.000Z",
+	"Dia_chi": "489 Tô đắc Châu,Phường 5,Quận 2, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.3",
+		"Ma_so": "LOP_6.3",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-01T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		}
+	],
+	"Ten_Dang_nhap": "HS_89",
+	"Mat_khau": "HS_89"
+}

@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Châu văn minh Toàn",
+	"Ma_so": "HS_16",
+	"CMND": "050553255",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-02-15T17:00:00.000Z",
+	"Dia_chi": "18 Kiều viết Đại,Phường 1,Quận 1, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.1",
+		"Ma_so": "LOP_6.1",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-05T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-07T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_16",
+	"Mat_khau": "HS_16"
+}

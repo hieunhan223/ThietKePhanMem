@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Thái văn phi Nhung",
+	"Ma_so": "HS_440",
+	"CMND": "040260378",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-09-08T17:00:00.000Z",
+	"Dia_chi": "304 Huỳnh kỳ Thiều,Phường 8,Quận 3, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.3",
+		"Ma_so": "LOP_8.3",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_440",
+	"Mat_khau": "HS_440"
+}

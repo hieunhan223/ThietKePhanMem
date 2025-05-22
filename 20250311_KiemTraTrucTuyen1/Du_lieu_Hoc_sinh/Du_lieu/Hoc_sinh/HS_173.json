@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Lâm như thảo Nguyên",
+	"Ma_so": "HS_173",
+	"CMND": "060586560",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-09-01T17:00:00.000Z",
+	"Dia_chi": "527 Liên kiên Tráng,Phường 5,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.5",
+		"Ma_so": "LOP_6.5",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_173",
+	"Mat_khau": "HS_173"
+}

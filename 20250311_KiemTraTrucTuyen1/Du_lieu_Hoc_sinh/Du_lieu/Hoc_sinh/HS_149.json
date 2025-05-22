@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Hứa phạm Phước",
+	"Ma_so": "HS_149",
+	"CMND": "050342756",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-07-19T17:00:00.000Z",
+	"Dia_chi": "185 Lý ngọc Thiết,Phường 4,Quận 6, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.5",
+		"Ma_so": "LOP_6.5",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_149",
+	"Mat_khau": "HS_149"
+}

@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Phạm nam Thắng",
+	"Ma_so": "HS_368",
+	"CMND": "020481162",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-09-30T17:00:00.000Z",
+	"Dia_chi": "384 Phí phước nguyên Tấn,Phường 4,Quận 4, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.1",
+		"Ma_so": "LOP_8.1",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_368",
+	"Mat_khau": "HS_368"
+}

@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Hứa thị Tần",
+	"Ma_so": "HS_61",
+	"CMND": "040334673",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-08-12T17:00:00.000Z",
+	"Dia_chi": "40 Đặng văn Hà,Phường 2,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.2",
+		"Ma_so": "LOP_6.2",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-14T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-16T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-08T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_61",
+	"Mat_khau": "HS_61"
+}

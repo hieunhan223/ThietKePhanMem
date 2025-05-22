@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Trường thành Đông",
+	"Ma_so": "HS_190",
+	"CMND": "080375163",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-11-09T17:00:00.000Z",
+	"Dia_chi": "181 Lâm như Liên,Phường 2,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.1",
+		"Ma_so": "LOP_7.1",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_190",
+	"Mat_khau": "HS_190"
+}

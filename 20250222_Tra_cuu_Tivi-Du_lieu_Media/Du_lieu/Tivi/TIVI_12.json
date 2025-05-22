@@ -1,0 +1,19 @@
+{
+	"Ten": "Smart Tivi TCL 32 inch",
+	"Ma_so": "TIVI_12",
+	"Don_gia_Ban": 6000000,
+	"Don_gia_Nhap": 5000000,
+	"Nhom_Tivi": {
+		"Ten": "Khác",
+		"Ma_so": "KHAC"
+	},
+	"Danh_sach_Ban_hang": [],
+	"Danh_sach_Nhap_hang": [
+		{
+			"Ngay": "7-2-2020",
+			"So_luong": 40,
+			"Don_gia": 4580000,
+			"Tien": 183200000
+		}
+	]
+}

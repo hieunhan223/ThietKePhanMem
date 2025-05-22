@@ -1,0 +1,17 @@
+﻿{
+  "Ma_so": "Mã số Đồ án",
+  "Ten": "Tên đồ án",
+  "Danh_sach_Sinh_vien": [
+    {
+      "Ma_so": "Mã số Sinh viên",
+      "Ho_ten": "Họ tên Sinh viên",
+      "Ma_so_Nhom": "Mã số Nhóm"
+    },
+    {
+      "Ma_so": "Mã số Sinh viên",
+      "Ho_ten": "Họ tên Sinh viên",
+      "Ma_so_Nhom": "Mã số Nhóm"
+    }
+  ]
+
+}

@@ -1,0 +1,48 @@
+{
+	"Ho_ten": "Ngô nam khánh Ngọc",
+	"Ma_so": "HS_559",
+	"CMND": "050221416",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-11-19T17:00:00.000Z",
+	"Dia_chi": "215 Trần tiến Nguyệt,Phường 3,Quận Phú nhuận, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.1",
+		"Ma_so": "LOP_9.1",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-15T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-04T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-11T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-16T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-18T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-08T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-07T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_559",
+	"Mat_khau": "HS_559"
+}

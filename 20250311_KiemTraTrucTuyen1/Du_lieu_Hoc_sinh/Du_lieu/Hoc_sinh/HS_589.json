@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Quách bảo Lành",
+	"Ma_so": "HS_589",
+	"CMND": "060681823",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-04-12T17:00:00.000Z",
+	"Dia_chi": "562 Dương gia minh Toàn,Phường 4,Quận Bình chánh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.2",
+		"Ma_so": "LOP_9.2",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-07T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-06T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-19T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-10T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_589",
+	"Mat_khau": "HS_589"
+}

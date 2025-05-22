@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Hứa thị phi Hùng",
+	"Ma_so": "HS_749",
+	"CMND": "040576034",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-02-20T17:00:00.000Z",
+	"Dia_chi": "128 Nguyễn đình minh Lý,Phường 1,Quận 5, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.6",
+		"Ma_so": "LOP_9.6",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-04T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-18T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-10-08T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		}
+	],
+	"Ten_Dang_nhap": "HS_749",
+	"Mat_khau": "HS_749"
+}

@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Đồng thị Song",
+	"Ma_so": "HS_420",
+	"CMND": "010876004",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-03-06T17:00:00.000Z",
+	"Dia_chi": "530 Hứa đình thùy Trang,Phường 9,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.2",
+		"Ma_so": "LOP_8.2",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-13T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-16T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-15T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-03T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_420",
+	"Mat_khau": "HS_420"
+}

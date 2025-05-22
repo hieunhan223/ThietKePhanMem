@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Bành thanh Phước",
+	"Ma_so": "HS_742",
+	"CMND": "030521018",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-11-05T17:00:00.000Z",
+	"Dia_chi": "326 Công bích cẩm Thúy,Phường 6,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.6",
+		"Ma_so": "LOP_9.6",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-06T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-15T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_742",
+	"Mat_khau": "HS_742"
+}

@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Đặng hồng ngọc Liên",
+	"Ma_so": "HS_143",
+	"CMND": "010312852",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-03-05T17:00:00.000Z",
+	"Dia_chi": "105 Nguyễn như Thành,Phường 1,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.5",
+		"Ma_so": "LOP_6.5",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-20T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-01T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		}
+	],
+	"Ten_Dang_nhap": "HS_143",
+	"Mat_khau": "HS_143"
+}

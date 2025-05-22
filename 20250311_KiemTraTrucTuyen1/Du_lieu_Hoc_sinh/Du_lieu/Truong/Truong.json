@@ -1,0 +1,215 @@
+{
+	"Ten": "Trường PET",
+	"Ma_so": "PET",
+	"Dien_thoai": "84-28555722",
+	"Dia_chi": "112 Nguyễn văn Cừ,Q.5",
+	"Mail": "nthPET@gmail.com",
+	"Danh_sach_Giao_vu": [
+		{
+			"Ho_ten": "Tô thị lớn Lớn",
+			"Ma_so": "GV_1",
+			"Ten_Dang_nhap": "GV_1",
+			"Mat_khau": "GV_1"
+		}
+	],
+	"Danh_sach_Giam_thi": [
+		{
+			"Ho_ten": "Tô thị bé Bé",
+			"Ma_so": "GT_1",
+			"Ten_Dang_nhap": "GT_1",
+			"Mat_khau": "GT_1",
+			"Danh_sach_Khoi":[
+				{   "Ten"  : "Khối 6",
+					"Ma_so": "KHOI_6"
+				},
+				{   "Ten"  : "Khối 7",
+					"Ma_so": "KHOI_7"
+				}	
+			]
+		},
+		{
+			"Ho_ten": "Nguyễn thị nho Nhỏ",
+			"Ma_so": "GT_2",
+			"Ten_Dang_nhap": "GT_2",
+			"Mat_khau": "GT_2",
+			"Danh_sach_Khoi":[
+				{   "Ten"  : "Khối 8",
+					"Ma_so": "KHOI_8"
+				},
+				{   "Ten"  : "Khối 9",
+					"Ma_so": "KHOI_9"
+				}	
+			]
+		}
+	],
+	"Danh_sach_Lop": [
+		{
+			"Ten": "Lớp 6.1",
+			"Ma_so": "LOP_6.1",
+			"Khoi": {
+				"Ten": "Khối 6",
+				"Ma_so": "KHOI_6"
+			}
+		},
+		{
+			"Ten": "Lớp 6.3",
+			"Ma_so": "LOP_6.3",
+			"Khoi": {
+				"Ten": "Khối 6",
+				"Ma_so": "KHOI_6"
+			}
+		},
+		{
+			"Ten": "Lớp 6.4",
+			"Ma_so": "LOP_6.4",
+			"Khoi": {
+				"Ten": "Khối 6",
+				"Ma_so": "KHOI_6"
+			}
+		},
+		{
+			"Ten": "Lớp 6.5",
+			"Ma_so": "LOP_6.5",
+			"Khoi": {
+				"Ten": "Khối 6",
+				"Ma_so": "KHOI_6"
+			}
+		},
+		{
+			"Ten": "Lớp 7.1",
+			"Ma_so": "LOP_7.1",
+			"Khoi": {
+				"Ten": "Khối 7",
+				"Ma_so": "KHOI_7"
+			}
+		},
+		{
+			"Ten": "Lớp 7.2",
+			"Ma_so": "LOP_7.2",
+			"Khoi": {
+				"Ten": "Khối 7",
+				"Ma_so": "KHOI_7"
+			}
+		},
+		{
+			"Ten": "Lớp 7.3",
+			"Ma_so": "LOP_7.3",
+			"Khoi": {
+				"Ten": "Khối 7",
+				"Ma_so": "KHOI_7"
+			}
+		},
+		{
+			"Ten": "Lớp 7.4",
+			"Ma_so": "LOP_7.4",
+			"Khoi": {
+				"Ten": "Khối 7",
+				"Ma_so": "KHOI_7"
+			}
+		},
+		{
+			"Ten": "Lớp 7.5",
+			"Ma_so": "LOP_7.5",
+			"Khoi": {
+				"Ten": "Khối 7",
+				"Ma_so": "KHOI_7"
+			}
+		},
+		{
+			"Ten": "Lớp 6.2",
+			"Ma_so": "LOP_6.2",
+			"Khoi": {
+				"Ten": "Khối 6",
+				"Ma_so": "KHOI_6"
+			}
+		},
+		{
+			"Ten": "Lớp 8.1",
+			"Ma_so": "LOP_8.1",
+			"Khoi": {
+				"Ten": "Khối 8",
+				"Ma_so": "KHOI_8"
+			}
+		},
+		{
+			"Ten": "Lớp 8.2",
+			"Ma_so": "LOP_8.2",
+			"Khoi": {
+				"Ten": "Khối 8",
+				"Ma_so": "KHOI_8"
+			}
+		},
+		{
+			"Ten": "Lớp 8.3",
+			"Ma_so": "LOP_8.3",
+			"Khoi": {
+				"Ten": "Khối 8",
+				"Ma_so": "KHOI_8"
+			}
+		},
+		{
+			"Ten": "Lớp 8.4",
+			"Ma_so": "LOP_8.4",
+			"Khoi": {
+				"Ten": "Khối 8",
+				"Ma_so": "KHOI_8"
+			}
+		},
+		{
+			"Ten": "Lớp 8.5",
+			"Ma_so": "LOP_8.5",
+			"Khoi": {
+				"Ten": "Khối 8",
+				"Ma_so": "KHOI_8"
+			}
+		},
+		{
+			"Ten": "Lớp 9.1",
+			"Ma_so": "LOP_9.1",
+			"Khoi": {
+				"Ten": "Khối 9",
+				"Ma_so": "KHOI_9"
+			}
+		},
+		{
+			"Ten": "Lớp 9.2",
+			"Ma_so": "LOP_9.2",
+			"Khoi": {
+				"Ten": "Khối 9",
+				"Ma_so": "KHOI_9"
+			}
+		},
+		{
+			"Ten": "Lớp 9.3",
+			"Ma_so": "LOP_9.3",
+			"Khoi": {
+				"Ten": "Khối 9",
+				"Ma_so": "KHOI_9"
+			}
+		},
+		{
+			"Ten": "Lớp 9.4",
+			"Ma_so": "LOP_9.4",
+			"Khoi": {
+				"Ten": "Khối 9",
+				"Ma_so": "KHOI_9"
+			}
+		},
+		{
+			"Ten": "Lớp 9.5",
+			"Ma_so": "LOP_9.5",
+			"Khoi": {
+				"Ten": "Khối 9",
+				"Ma_so": "KHOI_9"
+			}
+		},
+		{
+			"Ten": "Lớp 9.6",
+			"Ma_so": "LOP_9.6",
+			"Khoi": {
+				"Ten": "Khối 9",
+				"Ma_so": "KHOI_9"
+			}
+		}
+	]
+}

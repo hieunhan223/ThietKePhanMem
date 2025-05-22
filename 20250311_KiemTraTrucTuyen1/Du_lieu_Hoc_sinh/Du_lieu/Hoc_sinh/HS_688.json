@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Trường thanh Thành",
+	"Ma_so": "HS_688",
+	"CMND": "040232405",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-08-17T17:00:00.000Z",
+	"Dia_chi": "32 Bùi thị tuấn Khoa,Phường 6,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-11T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-16T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_688",
+	"Mat_khau": "HS_688"
+}

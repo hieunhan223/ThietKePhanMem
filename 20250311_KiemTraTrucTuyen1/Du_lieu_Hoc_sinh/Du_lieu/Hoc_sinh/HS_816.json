@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Lý lâm kiên Trường",
+	"Ma_so": "HS_816",
+	"CMND": "070406511",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-05-12T17:00:00.000Z",
+	"Dia_chi": "126 Nhữ an thục Mai,Phường 8,Quận Bình chánh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_816",
+	"Mat_khau": "HS_816"
+}

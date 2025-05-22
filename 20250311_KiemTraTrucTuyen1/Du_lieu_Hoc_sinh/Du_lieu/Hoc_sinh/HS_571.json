@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Trang quỳnh hảo Khiêm",
+	"Ma_so": "HS_571",
+	"CMND": "030353728",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-02-18T17:00:00.000Z",
+	"Dia_chi": "93 Ôn lý Song,Phường 8,Quận 12, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.1",
+		"Ma_so": "LOP_9.1",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-19T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-15T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-13T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-09-30T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_571",
+	"Mat_khau": "HS_571"
+}

@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Lý tiến hải Liên",
+	"Ma_so": "HS_336",
+	"CMND": "070767372",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-08-08T17:00:00.000Z",
+	"Dia_chi": "359 Thái bùi phi Sơn,Phường 10,Quận 7, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.5",
+		"Ma_so": "LOP_7.5",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-19T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_336",
+	"Mat_khau": "HS_336"
+}

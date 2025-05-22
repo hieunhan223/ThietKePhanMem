@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Ôn minh Hiền",
+	"Ma_so": "HS_46",
+	"CMND": "040412176",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-02-14T17:00:00.000Z",
+	"Dia_chi": "515 Phí tiến Hạnh,Phường 5,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.2",
+		"Ma_so": "LOP_6.2",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-21T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-13T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-01T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-17T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_46",
+	"Mat_khau": "HS_46"
+}

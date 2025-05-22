@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Triệu như Phán",
+	"Ma_so": "HS_364",
+	"CMND": "050272478",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-03-17T17:00:00.000Z",
+	"Dia_chi": "341 Kiều như thục Hiền,Phường 10,Quận 12, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.1",
+		"Ma_so": "LOP_8.1",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_364",
+	"Mat_khau": "HS_364"
+}

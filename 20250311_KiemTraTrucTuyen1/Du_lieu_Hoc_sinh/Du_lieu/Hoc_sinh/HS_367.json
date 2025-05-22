@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Nguyễn hà sơn Tài",
+	"Ma_so": "HS_367",
+	"CMND": "070438046",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-08-24T17:00:00.000Z",
+	"Dia_chi": "487 Hoàng gia Nguyệt,Phường 5,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.1",
+		"Ma_so": "LOP_8.1",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_367",
+	"Mat_khau": "HS_367"
+}

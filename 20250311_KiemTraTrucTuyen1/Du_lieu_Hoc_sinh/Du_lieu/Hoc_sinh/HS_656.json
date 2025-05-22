@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Nguyễn như Lam",
+	"Ma_so": "HS_656",
+	"CMND": "050851832",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-06-10T17:00:00.000Z",
+	"Dia_chi": "8 Đổ văn Tế,Phường 6,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.4",
+		"Ma_so": "LOP_9.4",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_656",
+	"Mat_khau": "HS_656"
+}

@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Nguyễn quyết Dung",
+	"Ma_so": "HS_48",
+	"CMND": "010411013",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-06-02T17:00:00.000Z",
+	"Dia_chi": "115 Võ bích đan Tân,Phường 7,Quận Bình chánh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.2",
+		"Ma_so": "LOP_6.2",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-04T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-01T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-17T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-10T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		}
+	],
+	"Ten_Dang_nhap": "HS_48",
+	"Mat_khau": "HS_48"
+}

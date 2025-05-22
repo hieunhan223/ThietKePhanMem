@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Trang thị Nguyên",
+	"Ma_so": "HS_600",
+	"CMND": "040210585",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-07-12T17:00:00.000Z",
+	"Dia_chi": "484 Nguyên đình chiến Thắng,Phường 10,Quận 7, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.2",
+		"Ma_so": "LOP_9.2",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-13T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-05T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-17T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-04T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_600",
+	"Mat_khau": "HS_600"
+}

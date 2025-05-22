@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Đinh kim tuyết Mai",
+	"Ma_so": "HS_285",
+	"CMND": "070771100",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-04-18T17:00:00.000Z",
+	"Dia_chi": "583 Nguyễn kỳ thục Mai,Phường 10,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.3",
+		"Ma_so": "LOP_7.3",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_285",
+	"Mat_khau": "HS_285"
+}

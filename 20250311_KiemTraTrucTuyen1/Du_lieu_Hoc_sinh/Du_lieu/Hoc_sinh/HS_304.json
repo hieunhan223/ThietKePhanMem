@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Đồng đình bình Minh",
+	"Ma_so": "HS_304",
+	"CMND": "020582745",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-02-21T17:00:00.000Z",
+	"Dia_chi": "413 Bàng nam Kháng,Phường 2,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.4",
+		"Ma_so": "LOP_7.4",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-14T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-07T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_304",
+	"Mat_khau": "HS_304"
+}

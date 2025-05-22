@@ -1,0 +1,44 @@
+{
+	"Ho_ten": "Đồng bảo hải Bích",
+	"Ma_so": "HS_262",
+	"CMND": "010734214",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-06-07T17:00:00.000Z",
+	"Dia_chi": "464 Bành bích thúy Hạnh,Phường 10,Quận 1, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.3",
+		"Ma_so": "LOP_7.3",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-08T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-16T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-09-30T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-04T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-20T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-12T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_262",
+	"Mat_khau": "HS_262"
+}

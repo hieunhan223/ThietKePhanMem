@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Hứa gia Táo",
+	"Ma_so": "HS_118",
+	"CMND": "030227541",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-02-22T17:00:00.000Z",
+	"Dia_chi": "471 Triệu hữu thục Mai,Phường 8,Quận 4, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.4",
+		"Ma_so": "LOP_6.4",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-13T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-02T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-16T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-16T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		}
+	],
+	"Ten_Dang_nhap": "HS_118",
+	"Mat_khau": "HS_118"
+}

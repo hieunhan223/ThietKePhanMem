@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Hồ tiến Châu",
+	"Ma_so": "HS_417",
+	"CMND": "070418450",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-08-02T17:00:00.000Z",
+	"Dia_chi": "352 Phạm phúc bạch Mai,Phường 5,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.2",
+		"Ma_so": "LOP_8.2",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_417",
+	"Mat_khau": "HS_417"
+}

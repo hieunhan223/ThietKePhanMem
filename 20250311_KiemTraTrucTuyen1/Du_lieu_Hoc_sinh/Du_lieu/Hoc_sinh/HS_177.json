@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Lý đình hải Bích",
+	"Ma_so": "HS_177",
+	"CMND": "020672318",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-10-21T17:00:00.000Z",
+	"Dia_chi": "15 Chu như Đông,Phường 6,Quận 5, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.5",
+		"Ma_so": "LOP_6.5",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-07T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_177",
+	"Mat_khau": "HS_177"
+}

@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Huỳnh kiên Mai",
+	"Ma_so": "HS_457",
+	"CMND": "070827566",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-10-10T17:00:00.000Z",
+	"Dia_chi": "582 Võ thanh Dũng,Phường 8,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.3",
+		"Ma_so": "LOP_8.3",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-12T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-09-30T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_457",
+	"Mat_khau": "HS_457"
+}

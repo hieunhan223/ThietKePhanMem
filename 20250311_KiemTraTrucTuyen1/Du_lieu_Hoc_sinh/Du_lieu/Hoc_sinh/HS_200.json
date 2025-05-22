@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Lâm tiến Thu",
+	"Ma_so": "HS_200",
+	"CMND": "040741112",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-02-08T17:00:00.000Z",
+	"Dia_chi": "549 Mai đắc Tân,Phường 9,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.1",
+		"Ma_so": "LOP_7.1",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-20T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-04T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-12T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_200",
+	"Mat_khau": "HS_200"
+}

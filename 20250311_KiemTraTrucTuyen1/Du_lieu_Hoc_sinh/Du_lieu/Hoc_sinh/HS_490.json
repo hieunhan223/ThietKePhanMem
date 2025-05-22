@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Trần minh minh Toàn",
+	"Ma_so": "HS_490",
+	"CMND": "040606268",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-08-10T17:00:00.000Z",
+	"Dia_chi": "96 Ngô gia phúc Khiêm,Phường 5,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.4",
+		"Ma_so": "LOP_8.4",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_490",
+	"Mat_khau": "HS_490"
+}

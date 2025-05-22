@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Phạm thị Nam",
+	"Ma_so": "HS_777",
+	"CMND": "070635277",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-12-22T17:00:00.000Z",
+	"Dia_chi": "67 Nguyễn ngọc Thành,Phường 4,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.6",
+		"Ma_so": "LOP_9.6",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-08T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-10-12T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-16T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-21T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_777",
+	"Mat_khau": "HS_777"
+}

@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Bạch phước Bích",
+	"Ma_so": "HS_144",
+	"CMND": "070744245",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-07-19T17:00:00.000Z",
+	"Dia_chi": "171 Châu kiến thảo Nguyên,Phường 8,Quận 3, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.5",
+		"Ma_so": "LOP_6.5",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-15T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-10-04T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_144",
+	"Mat_khau": "HS_144"
+}

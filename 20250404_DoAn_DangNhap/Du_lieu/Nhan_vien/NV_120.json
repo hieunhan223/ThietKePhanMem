@@ -1,0 +1,49 @@
+{
+	"Ho_ten": "Trang quyết Đông",
+	"Ma_so": "NV_120",
+	"Ten_dang_nhap": "NV_120",
+	"Mat_khau": "NV_120",
+	"Gioi_tinh": "Nam",
+	"Don_vi": {
+		"Ten": "Đơn vị B.4",
+		"Ma_so": "DON_VI_B.4",
+		"Chi_nhanh": {
+			"Ten": "Chi nhánh B",
+			"Ma_so": "CHI_NHANH_B"
+		}
+	},
+	"Danh_sach_Don_xin_nghi": [
+		{
+			"Ngay_Nop_don": "2017-09-05T00:00:00",
+			"Ngay_Bat_dau": "2017-12-01T00:00:00+07:00",
+			"So_ngay": 1,
+			"Ly_do": "Việc riêng",
+			"Y_kien": {
+				"Ngay": "2017-09-20T00:00:00",
+				"Da_co_Y_kien": true,
+				"Noi_dung": "Đồng ý cho nghỉ "
+			},
+			"Ma_so": "NV_120-1",
+			"Nhan_vien": {
+				"Ho_ten": "Trang quyết Đông",
+				"Ma_so": "NV_120"
+			}
+		},
+		{
+			"Ngay_Nop_don": "2017-12-24T00:00:00",
+			"Ngay_Bat_dau": "2017-11-27T00:00:00+07:00",
+			"So_ngay": 1,
+			"Ly_do": "Việc riêng",
+			"Y_kien": {
+				"Ngay": "2017-11-15T00:00:00+07:00",
+				"Da_co_Y_kien": false,
+				"Noi_dung": "Đồng ý cho nghỉ "
+			},
+			"Ma_so": "NV_120-2",
+			"Nhan_vien": {
+				"Ho_ten": "Trang quyết Đông",
+				"Ma_so": "NV_120"
+			}
+		}
+	]
+}

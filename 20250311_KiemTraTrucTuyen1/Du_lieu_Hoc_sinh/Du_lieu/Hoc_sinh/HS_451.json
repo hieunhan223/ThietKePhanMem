@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Huỳnh phạm Vàng",
+	"Ma_so": "HS_451",
+	"CMND": "030737563",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-09-25T17:00:00.000Z",
+	"Dia_chi": "317 Trần bích thảo Nguyên,Phường 2,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.3",
+		"Ma_so": "LOP_8.3",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_451",
+	"Mat_khau": "HS_451"
+}

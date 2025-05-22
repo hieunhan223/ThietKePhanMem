@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Phi đình tuyết Mai",
+	"Ma_so": "HS_770",
+	"CMND": "050104532",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-11-18T17:00:00.000Z",
+	"Dia_chi": "458 Liên như Quyền,Phường 6,Quận Nhà bè, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-10T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-06T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_770",
+	"Mat_khau": "HS_770"
+}

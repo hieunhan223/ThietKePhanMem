@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Thái văn Thiên",
+	"Ma_so": "HS_683",
+	"CMND": "060577363",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-04-24T17:00:00.000Z",
+	"Dia_chi": "50 Triệu nam đan Tân,Phường 6,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.4",
+		"Ma_so": "LOP_9.4",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-21T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-06T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-19T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_683",
+	"Mat_khau": "HS_683"
+}

@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Nguyễn xuân thụy Trang",
+	"Ma_so": "HS_762",
+	"CMND": "050568186",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-09-02T17:00:00.000Z",
+	"Dia_chi": "510 Lâm duy thụy Khuê,Phường 9,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-03T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		}
+	],
+	"Ten_Dang_nhap": "HS_762",
+	"Mat_khau": "HS_762"
+}

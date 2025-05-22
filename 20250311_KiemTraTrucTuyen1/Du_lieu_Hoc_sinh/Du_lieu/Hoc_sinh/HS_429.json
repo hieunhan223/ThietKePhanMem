@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Trần lý Trinh",
+	"Ma_so": "HS_429",
+	"CMND": "010840668",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-12-26T17:00:00.000Z",
+	"Dia_chi": "61 Đồng tiến liên Trúc,Phường 10,Quận 2, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.2",
+		"Ma_so": "LOP_8.2",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-03T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-14T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-16T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_429",
+	"Mat_khau": "HS_429"
+}

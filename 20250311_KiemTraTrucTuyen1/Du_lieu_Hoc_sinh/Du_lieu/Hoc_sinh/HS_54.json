@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Đinh hùng đắc Toàn",
+	"Ma_so": "HS_54",
+	"CMND": "080254603",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-10-04T17:00:00.000Z",
+	"Dia_chi": "415 Hồ lâm kiên Long,Phường 3,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.2",
+		"Ma_so": "LOP_6.2",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-05T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		}
+	],
+	"Ten_Dang_nhap": "HS_54",
+	"Mat_khau": "HS_54"
+}

@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Bạch quỳnh hồng Châu",
+	"Ma_so": "HS_283",
+	"CMND": "040853866",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-03-05T17:00:00.000Z",
+	"Dia_chi": "528 Nguyễn thanh Liên,Phường 5,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.3",
+		"Ma_so": "LOP_7.3",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-12T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-15T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-19T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-21T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_283",
+	"Mat_khau": "HS_283"
+}

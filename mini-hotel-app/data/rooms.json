@@ -1,0 +1,5 @@
+[
+  { "id": "101", "type": "A", "maxGuests": 2, "price": 500000, "facilities": ["TV", "WiFi"] },
+  { "id": "102", "type": "B", "maxGuests": 3, "price": 400000, "facilities": ["WiFi"] },
+  { "id": "103", "type": "C", "maxGuests": 4, "price": 300000, "facilities": ["Fan"] }
+]

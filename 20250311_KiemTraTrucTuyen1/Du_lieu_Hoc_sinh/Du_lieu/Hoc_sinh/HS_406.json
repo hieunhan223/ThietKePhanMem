@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Trần duy xuân Trường",
+	"Ma_so": "HS_406",
+	"CMND": "080341286",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-08-16T17:00:00.000Z",
+	"Dia_chi": "56 Phạm phước minh Lý,Phường 10,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.2",
+		"Ma_so": "LOP_8.2",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_406",
+	"Mat_khau": "HS_406"
+}

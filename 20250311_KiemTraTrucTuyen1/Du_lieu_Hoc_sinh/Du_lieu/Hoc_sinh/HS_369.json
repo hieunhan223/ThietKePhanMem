@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Lê tiến quang Mỹ",
+	"Ma_so": "HS_369",
+	"CMND": "070267708",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-09-07T17:00:00.000Z",
+	"Dia_chi": "407 Chu thành Trinh,Phường 10,Quận 12, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.1",
+		"Ma_so": "LOP_8.1",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-06T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-19T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-16T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-02T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_369",
+	"Mat_khau": "HS_369"
+}

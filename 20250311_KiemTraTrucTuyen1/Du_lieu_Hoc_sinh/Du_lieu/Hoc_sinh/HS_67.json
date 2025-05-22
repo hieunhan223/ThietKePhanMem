@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Nguyễn triệu Hạnh",
+	"Ma_so": "HS_67",
+	"CMND": "080117417",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-07-08T17:00:00.000Z",
+	"Dia_chi": "17 Nguyên thanh ngọc Dung,Phường 6,Quận 4, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.2",
+		"Ma_so": "LOP_6.2",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_67",
+	"Mat_khau": "HS_67"
+}

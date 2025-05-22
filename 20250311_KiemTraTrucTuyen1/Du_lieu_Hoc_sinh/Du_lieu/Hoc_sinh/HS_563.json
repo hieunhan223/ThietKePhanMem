@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Hà thành Toàn",
+	"Ma_so": "HS_563",
+	"CMND": "050467301",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-06-15T17:00:00.000Z",
+	"Dia_chi": "397 Ngô triệu Khoa,Phường 8,Quận 3, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.1",
+		"Ma_so": "LOP_9.1",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-19T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-05T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-11-19T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_563",
+	"Mat_khau": "HS_563"
+}

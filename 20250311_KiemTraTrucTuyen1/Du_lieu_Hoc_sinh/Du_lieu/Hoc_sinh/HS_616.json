@@ -1,0 +1,40 @@
+{
+	"Ho_ten": "Phí duy bình Minh",
+	"Ma_so": "HS_616",
+	"CMND": "010446177",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-06-01T17:00:00.000Z",
+	"Dia_chi": "575 Nguyễn văn Hiền,Phường 7,Quận 3, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.3",
+		"Ma_so": "LOP_9.3",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-13T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-10-08T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-11T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-01T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-01T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_616",
+	"Mat_khau": "HS_616"
+}

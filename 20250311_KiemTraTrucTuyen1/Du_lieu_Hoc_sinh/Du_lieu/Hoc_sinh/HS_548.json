@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Lê triệu Viễn",
+	"Ma_so": "HS_548",
+	"CMND": "080250510",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-06-17T17:00:00.000Z",
+	"Dia_chi": "390 Đặng hùng Toàn,Phường 8,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.1",
+		"Ma_so": "LOP_9.1",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_548",
+	"Mat_khau": "HS_548"
+}

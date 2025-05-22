@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Lê phạm bạch Mai",
+	"Ma_so": "HS_12",
+	"CMND": "060777007",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-11-22T17:00:00.000Z",
+	"Dia_chi": "552 Phạm văn thục Mai,Phường 5,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.1",
+		"Ma_so": "LOP_6.1",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_12",
+	"Mat_khau": "HS_12"
+}

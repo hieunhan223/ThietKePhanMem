@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Phí ngọc quyết Thắng",
+	"Ma_so": "HS_353",
+	"CMND": "040287665",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-06-14T17:00:00.000Z",
+	"Dia_chi": "289 Trần văn bảo Châu,Phường 9,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.5",
+		"Ma_so": "LOP_7.5",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_353",
+	"Mat_khau": "HS_353"
+}

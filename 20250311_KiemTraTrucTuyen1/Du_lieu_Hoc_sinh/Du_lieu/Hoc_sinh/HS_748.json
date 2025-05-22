@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Triệu văn thúy Hạnh",
+	"Ma_so": "HS_748",
+	"CMND": "010248363",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-07-13T17:00:00.000Z",
+	"Dia_chi": "522 Mai thiện sơn Tài,Phường 8,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.6",
+		"Ma_so": "LOP_9.6",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-16T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		}
+	],
+	"Ten_Dang_nhap": "HS_748",
+	"Mat_khau": "HS_748"
+}

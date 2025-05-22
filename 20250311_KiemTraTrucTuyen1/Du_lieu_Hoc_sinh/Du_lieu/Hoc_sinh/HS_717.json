@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Nguyễn như Phán",
+	"Ma_so": "HS_717",
+	"CMND": "030638685",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-09-09T17:00:00.000Z",
+	"Dia_chi": "67 Kiều thị Cương,Phường 10,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-05T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-14T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-15T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-11T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_717",
+	"Mat_khau": "HS_717"
+}

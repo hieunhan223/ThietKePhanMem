@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Trang tiến Viễn",
+	"Ma_so": "HS_801",
+	"CMND": "040217053",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-11-15T17:00:00.000Z",
+	"Dia_chi": "568 Dương hà liên Trúc,Phường 3,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.6",
+		"Ma_so": "LOP_9.6",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-11T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-14T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_801",
+	"Mat_khau": "HS_801"
+}

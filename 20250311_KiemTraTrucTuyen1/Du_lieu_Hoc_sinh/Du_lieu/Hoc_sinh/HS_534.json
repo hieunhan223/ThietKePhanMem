@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Châu hà Đại",
+	"Ma_so": "HS_534",
+	"CMND": "030851135",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-04-16T17:00:00.000Z",
+	"Dia_chi": "122 Bàng hà xuân Dung,Phường 7,Quận 2, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.5",
+		"Ma_so": "LOP_8.5",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-01T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-05T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_534",
+	"Mat_khau": "HS_534"
+}

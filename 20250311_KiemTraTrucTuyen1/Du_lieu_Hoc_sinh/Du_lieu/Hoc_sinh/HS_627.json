@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Trương tắc Tài",
+	"Ma_so": "HS_627",
+	"CMND": "070876565",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-05-23T17:00:00.000Z",
+	"Dia_chi": "221 Lâm hữu liên Trúc,Phường 4,Quận 1, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.3",
+		"Ma_so": "LOP_9.3",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_627",
+	"Mat_khau": "HS_627"
+}

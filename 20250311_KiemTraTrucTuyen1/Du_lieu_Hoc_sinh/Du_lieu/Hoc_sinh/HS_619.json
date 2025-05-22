@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Nguyễn quyết thảo Nguyên",
+	"Ma_so": "HS_619",
+	"CMND": "030147140",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-02-23T17:00:00.000Z",
+	"Dia_chi": "229 Chu lê Dũng,Phường 3,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.3",
+		"Ma_so": "LOP_9.3",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-13T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_619",
+	"Mat_khau": "HS_619"
+}

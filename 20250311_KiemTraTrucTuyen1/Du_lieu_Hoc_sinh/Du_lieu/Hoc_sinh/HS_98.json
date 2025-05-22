@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Lâm cao bạch Mai",
+	"Ma_so": "HS_98",
+	"CMND": "070750581",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-04-14T17:00:00.000Z",
+	"Dia_chi": "397 Phạm thị Lộc,Phường 4,Quận Bình chánh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.3",
+		"Ma_so": "LOP_6.3",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_98",
+	"Mat_khau": "HS_98"
+}

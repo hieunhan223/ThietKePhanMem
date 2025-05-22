@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Phạm tiến Phán",
+	"Ma_so": "HS_169",
+	"CMND": "040310302",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-03-22T17:00:00.000Z",
+	"Dia_chi": "322 Phạm thành Lý,Phường 10,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.5",
+		"Ma_so": "LOP_6.5",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-19T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-09-30T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-08T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-12T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_169",
+	"Mat_khau": "HS_169"
+}

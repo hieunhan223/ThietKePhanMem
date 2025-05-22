@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Bành nam thảo Nguyên",
+	"Ma_so": "HS_79",
+	"CMND": "080137388",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-06-10T17:00:00.000Z",
+	"Dia_chi": "126 Hứa phước minh Lý,Phường 10,Quận 4, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.3",
+		"Ma_so": "LOP_6.3",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-14T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-11T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-20T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-20T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_79",
+	"Mat_khau": "HS_79"
+}

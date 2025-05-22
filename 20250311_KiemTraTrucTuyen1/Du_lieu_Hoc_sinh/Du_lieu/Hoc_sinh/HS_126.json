@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Trần thanh thanh Tần",
+	"Ma_so": "HS_126",
+	"CMND": "070438473",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-02-06T17:00:00.000Z",
+	"Dia_chi": "291 Đinh thị kim Bảo,Phường 5,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.4",
+		"Ma_so": "LOP_6.4",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-20T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_126",
+	"Mat_khau": "HS_126"
+}

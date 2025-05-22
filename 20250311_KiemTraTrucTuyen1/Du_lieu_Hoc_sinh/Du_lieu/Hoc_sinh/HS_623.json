@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Trầm nam Hồng",
+	"Ma_so": "HS_623",
+	"CMND": "070120241",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-03-16T17:00:00.000Z",
+	"Dia_chi": "75 Bạch lê liên Trúc,Phường 7,Quận 4, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.3",
+		"Ma_so": "LOP_9.3",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_623",
+	"Mat_khau": "HS_623"
+}

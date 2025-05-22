@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Phạm thanh Khoa",
+	"Ma_so": "HS_265",
+	"CMND": "060341073",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-06-20T17:00:00.000Z",
+	"Dia_chi": "502 Hoàng bích xuân Dung,Phường 10,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.3",
+		"Ma_so": "LOP_7.3",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-07T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_265",
+	"Mat_khau": "HS_265"
+}

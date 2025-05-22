@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Bạch an Lộc",
+	"Ma_so": "HS_272",
+	"CMND": "070685211",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-08-05T17:00:00.000Z",
+	"Dia_chi": "125 Triệu bảo Thu,Phường 4,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.3",
+		"Ma_so": "LOP_7.3",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-13T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-13T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-20T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_272",
+	"Mat_khau": "HS_272"
+}

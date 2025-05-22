@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Huỳnh ngọc Châu",
+	"Ma_so": "HS_650",
+	"CMND": "010303307",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-02-15T17:00:00.000Z",
+	"Dia_chi": "494 Bạch lê Nam,Phường 3,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.3",
+		"Ma_so": "LOP_9.3",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_650",
+	"Mat_khau": "HS_650"
+}

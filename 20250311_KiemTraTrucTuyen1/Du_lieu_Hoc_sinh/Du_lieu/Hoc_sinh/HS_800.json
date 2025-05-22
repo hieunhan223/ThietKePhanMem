@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Bùi thiện Tấn",
+	"Ma_so": "HS_800",
+	"CMND": "030577672",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-02-06T17:00:00.000Z",
+	"Dia_chi": "552 Triệu quyết Hải,Phường 6,Quận Bình chánh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.6",
+		"Ma_so": "LOP_9.6",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_800",
+	"Mat_khau": "HS_800"
+}

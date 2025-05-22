@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Nguyên thanh Bắc",
+	"Ma_so": "HS_454",
+	"CMND": "050500468",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-02-10T17:00:00.000Z",
+	"Dia_chi": "217 Ngô lý Thúy,Phường 5,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.3",
+		"Ma_so": "LOP_8.3",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-02T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_454",
+	"Mat_khau": "HS_454"
+}

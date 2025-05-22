@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Bạch phước bảo Châu",
+	"Ma_so": "HS_316",
+	"CMND": "070441104",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-02-18T17:00:00.000Z",
+	"Dia_chi": "539 Hứa duy Hạnh,Phường 7,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.4",
+		"Ma_so": "LOP_7.4",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_316",
+	"Mat_khau": "HS_316"
+}

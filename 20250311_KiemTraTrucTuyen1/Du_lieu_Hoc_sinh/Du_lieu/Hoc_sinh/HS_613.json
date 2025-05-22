@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Lý minh thanh Tần",
+	"Ma_so": "HS_613",
+	"CMND": "060765648",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-02-20T17:00:00.000Z",
+	"Dia_chi": "478 Bành hùng kiên Trường,Phường 1,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.2",
+		"Ma_so": "LOP_9.2",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_613",
+	"Mat_khau": "HS_613"
+}

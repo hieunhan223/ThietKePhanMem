@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Triệu thị Trúc",
+	"Ma_so": "HS_176",
+	"CMND": "070833523",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-09-25T17:00:00.000Z",
+	"Dia_chi": "199 Bàng thị hảo Khiêm,Phường 9,Quận 4, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.5",
+		"Ma_so": "LOP_6.5",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_176",
+	"Mat_khau": "HS_176"
+}

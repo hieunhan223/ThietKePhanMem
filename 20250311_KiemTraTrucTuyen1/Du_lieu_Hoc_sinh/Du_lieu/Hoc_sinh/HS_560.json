@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Trương như Hoàng",
+	"Ma_so": "HS_560",
+	"CMND": "030543548",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-09-04T17:00:00.000Z",
+	"Dia_chi": "202 Nguyễn thanh Lành,Phường 1,Quận Phú nhuận, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.1",
+		"Ma_so": "LOP_9.1",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-14T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_560",
+	"Mat_khau": "HS_560"
+}

@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Phạm thị Anh",
+	"Ma_so": "HS_355",
+	"CMND": "060157552",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-12-05T17:00:00.000Z",
+	"Dia_chi": "484 Ngô đình Hải,Phường 1,Quận Thủ đức, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.5",
+		"Ma_so": "LOP_7.5",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_355",
+	"Mat_khau": "HS_355"
+}

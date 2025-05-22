@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Ngô hữu bảo Châu",
+	"Ma_so": "HS_408",
+	"CMND": "070870501",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-06-22T17:00:00.000Z",
+	"Dia_chi": "160 Lê phước Dương,Phường 6,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.2",
+		"Ma_so": "LOP_8.2",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-13T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-18T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-11T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-20T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_408",
+	"Mat_khau": "HS_408"
+}

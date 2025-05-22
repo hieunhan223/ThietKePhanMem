@@ -1,0 +1,6 @@
+Tiêu chí tra cứu TV: Tra cứu theo Tên.
+Kết quả đạt được: Hoàn thành theo tiêu chí theo Tên
+Khó khăn: 
+    Thử làm tra cứu theo độ lớn màn hình chưa được do chưa tách phần độ lớn từ tên ra được
+Thuận lợi:
+    Code có sẵn từ phần tra cứu Nhân Viên, chỉ cần thay đổi NHAN_VIEN=TV và Nhan_vien=Tivi

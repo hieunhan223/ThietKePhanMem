@@ -1,0 +1,16 @@
+{
+	"Ho_ten": "Hoa tắc Hồng",
+	"Ma_so": "NV_131",
+	"Ten_dang_nhap": "NV_131",
+	"Mat_khau": "NV_131",
+	"Gioi_tinh": "Nữ",
+	"Don_vi": {
+		"Ten": "Đơn vị B.4",
+		"Ma_so": "DON_VI_B.4",
+		"Chi_nhanh": {
+			"Ten": "Chi nhánh B",
+			"Ma_so": "CHI_NHANH_B"
+		}
+	},
+	"Danh_sach_Don_xin_nghi": []
+}

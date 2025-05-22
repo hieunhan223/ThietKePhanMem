@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Quách hữu Phước",
+	"Ma_so": "HS_410",
+	"CMND": "020102448",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-06-20T17:00:00.000Z",
+	"Dia_chi": "257 Bàng tiến minh Toàn,Phường 1,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.2",
+		"Ma_so": "LOP_8.2",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-07T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_410",
+	"Mat_khau": "HS_410"
+}

@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Trầm tắc Anh",
+	"Ma_so": "HS_705",
+	"CMND": "010135863",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-11-02T17:00:00.000Z",
+	"Dia_chi": "570 Võ tắc phi Lan,Phường 3,Quận Nhà bè, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-11T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-18T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-20T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_705",
+	"Mat_khau": "HS_705"
+}

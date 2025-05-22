@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Lê văn Song",
+	"Ma_so": "HS_107",
+	"CMND": "050442058",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-03-24T17:00:00.000Z",
+	"Dia_chi": "598 Nguyễn cao Trường,Phường 4,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.3",
+		"Ma_so": "LOP_6.3",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-07T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_107",
+	"Mat_khau": "HS_107"
+}

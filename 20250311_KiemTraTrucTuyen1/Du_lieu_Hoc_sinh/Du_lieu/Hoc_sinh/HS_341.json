@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Lý ngọc thảo Trúc",
+	"Ma_so": "HS_341",
+	"CMND": "020611146",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-06-11T17:00:00.000Z",
+	"Dia_chi": "377 Ôn ngọc Bảo,Phường 6,Quận 13, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.5",
+		"Ma_so": "LOP_7.5",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-16T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-16T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-06T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-20T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_341",
+	"Mat_khau": "HS_341"
+}

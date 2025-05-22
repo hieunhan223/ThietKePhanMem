@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Hoa tiến Thiết",
+	"Ma_so": "HS_569",
+	"CMND": "050844116",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-07-14T17:00:00.000Z",
+	"Dia_chi": "188 Triệu sơn Thục,Phường 1,Quận 5, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.1",
+		"Ma_so": "LOP_9.1",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-18T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_569",
+	"Mat_khau": "HS_569"
+}

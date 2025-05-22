@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Nguyễn văn Lam",
+	"Ma_so": "HS_643",
+	"CMND": "050823754",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-04-06T17:00:00.000Z",
+	"Dia_chi": "85 Đặng đình Hoàng,Phường 8,Quận 3, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.3",
+		"Ma_so": "LOP_9.3",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-07T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-02T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-01T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-31T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_643",
+	"Mat_khau": "HS_643"
+}

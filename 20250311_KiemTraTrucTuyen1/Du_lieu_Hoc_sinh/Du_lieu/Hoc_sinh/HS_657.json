@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Mai tiến thảo Trúc",
+	"Ma_so": "HS_657",
+	"CMND": "070582683",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-07-01T17:00:00.000Z",
+	"Dia_chi": "138 Hoàng nam Thúy,Phường 7,Quận 12, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.4",
+		"Ma_so": "LOP_9.4",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_657",
+	"Mat_khau": "HS_657"
+}

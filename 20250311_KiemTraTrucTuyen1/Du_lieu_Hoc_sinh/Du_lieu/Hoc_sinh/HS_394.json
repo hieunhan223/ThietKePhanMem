@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Nguyễn thị Khoa",
+	"Ma_so": "HS_394",
+	"CMND": "080138657",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-11-25T17:00:00.000Z",
+	"Dia_chi": "104 Bàng văn Nguyên,Phường 2,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.1",
+		"Ma_so": "LOP_8.1",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_394",
+	"Mat_khau": "HS_394"
+}

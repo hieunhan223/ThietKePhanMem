@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Phí lê xuân Trường",
+	"Ma_so": "HS_243",
+	"CMND": "080322254",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-08-11T17:00:00.000Z",
+	"Dia_chi": "26 Hoa triệu Long,Phường 7,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.2",
+		"Ma_so": "LOP_7.2",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-15T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_243",
+	"Mat_khau": "HS_243"
+}

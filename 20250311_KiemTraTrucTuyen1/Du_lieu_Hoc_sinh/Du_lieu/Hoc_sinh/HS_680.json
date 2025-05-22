@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Tô kiến Đài",
+	"Ma_so": "HS_680",
+	"CMND": "040334514",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-02-13T17:00:00.000Z",
+	"Dia_chi": "53 Phạm tiến kim Bảo,Phường 6,Quận Tân bình, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.4",
+		"Ma_so": "LOP_9.4",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_680",
+	"Mat_khau": "HS_680"
+}

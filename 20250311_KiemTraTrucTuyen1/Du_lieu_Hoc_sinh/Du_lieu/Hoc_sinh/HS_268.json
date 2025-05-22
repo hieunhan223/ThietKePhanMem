@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Bùi thanh ngọc Châu",
+	"Ma_so": "HS_268",
+	"CMND": "030527730",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-07-31T17:00:00.000Z",
+	"Dia_chi": "15 Kiều tắc Tạo,Phường 7,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.3",
+		"Ma_so": "LOP_7.3",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-08T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-19T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		}
+	],
+	"Ten_Dang_nhap": "HS_268",
+	"Mat_khau": "HS_268"
+}

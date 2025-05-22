@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Trầm như kim Hồng",
+	"Ma_so": "HS_130",
+	"CMND": "020610373",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-03-15T17:00:00.000Z",
+	"Dia_chi": "561 Ngô lê hồng Châu,Phường 7,Quận Phú nhuận, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.4",
+		"Ma_so": "LOP_6.4",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-21T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_130",
+	"Mat_khau": "HS_130"
+}

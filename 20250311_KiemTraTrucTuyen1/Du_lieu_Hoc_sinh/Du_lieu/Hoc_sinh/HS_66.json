@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Đồng thị Khiêm",
+	"Ma_so": "HS_66",
+	"CMND": "070664880",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2005-09-17T17:00:00.000Z",
+	"Dia_chi": "158 Cao thiện Giang,Phường 10,Quận 4, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.2",
+		"Ma_so": "LOP_6.2",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_66",
+	"Mat_khau": "HS_66"
+}

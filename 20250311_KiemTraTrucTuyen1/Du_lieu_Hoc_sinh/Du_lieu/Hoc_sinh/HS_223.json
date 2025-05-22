@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Hồ tắc Trang",
+	"Ma_so": "HS_223",
+	"CMND": "050705483",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-02-03T17:00:00.000Z",
+	"Dia_chi": "159 Trần hùng Thành,Phường 1,Quận Nhà bè, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.2",
+		"Ma_so": "LOP_7.2",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-12T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-02T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-10T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-21T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_223",
+	"Mat_khau": "HS_223"
+}

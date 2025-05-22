@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Phạm ngọc bích Châu",
+	"Ma_so": "HS_186",
+	"CMND": "010421852",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-11-08T17:00:00.000Z",
+	"Dia_chi": "374 Ôn thị Giảng,Phường 5,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.1",
+		"Ma_so": "LOP_7.1",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-06T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_186",
+	"Mat_khau": "HS_186"
+}

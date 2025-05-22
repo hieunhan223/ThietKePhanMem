@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Mai đình Tráng",
+	"Ma_so": "HS_667",
+	"CMND": "060156715",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-04-21T17:00:00.000Z",
+	"Dia_chi": "153 Triệu viết sơn Trúc,Phường 1,Quận 9, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.4",
+		"Ma_so": "LOP_9.4",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-14T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_667",
+	"Mat_khau": "HS_667"
+}

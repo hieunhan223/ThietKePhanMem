@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Lý quyết Bắc",
+	"Ma_so": "HS_707",
+	"CMND": "020388205",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-07-02T17:00:00.000Z",
+	"Dia_chi": "210 Lâm thị Tân,Phường 5,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_707",
+	"Mat_khau": "HS_707"
+}

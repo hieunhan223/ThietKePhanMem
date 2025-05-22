@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Đồng quỳnh Thúy",
+	"Ma_so": "HS_552",
+	"CMND": "010822543",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-10-24T17:00:00.000Z",
+	"Dia_chi": "75 Phí lê Tần,Phường 8,Quận 7, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.1",
+		"Ma_so": "LOP_9.1",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-10T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-10-13T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-17T00:00:00.000Z",
+			"Ly_do": "Trốn học"
+		}
+	],
+	"Ten_Dang_nhap": "HS_552",
+	"Mat_khau": "HS_552"
+}

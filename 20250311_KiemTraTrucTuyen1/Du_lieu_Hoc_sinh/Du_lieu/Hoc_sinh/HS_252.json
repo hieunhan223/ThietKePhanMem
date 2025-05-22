@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Phạm kiến Thục",
+	"Ma_so": "HS_252",
+	"CMND": "040351752",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-02-14T17:00:00.000Z",
+	"Dia_chi": "592 Trang phạm thảo Nguyên,Phường 8,Quận 2, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.2",
+		"Ma_so": "LOP_7.2",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_252",
+	"Mat_khau": "HS_252"
+}

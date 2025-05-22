@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Đặng tiến bình Minh",
+	"Ma_so": "HS_489",
+	"CMND": "010360186",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-03-26T17:00:00.000Z",
+	"Dia_chi": "466 Trang phước bình Minh,Phường 1,Quận 10, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.4",
+		"Ma_so": "LOP_8.4",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-15T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-04T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-11T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_489",
+	"Mat_khau": "HS_489"
+}

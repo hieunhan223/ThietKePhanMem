@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Nguyễn hà Mỹ",
+	"Ma_so": "HS_453",
+	"CMND": "050107003",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2003-10-02T17:00:00.000Z",
+	"Dia_chi": "367 Nguyễn văn Thạch,Phường 6,Quận 2, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.3",
+		"Ma_so": "LOP_8.3",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_453",
+	"Mat_khau": "HS_453"
+}

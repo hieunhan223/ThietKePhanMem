@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Lâm thị Anh",
+	"Ma_so": "HS_771",
+	"CMND": "070811556",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-06-22T17:00:00.000Z",
+	"Dia_chi": "352 Thái kiến phi Lan,Phường 1,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.5",
+		"Ma_so": "LOP_9.5",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-12T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-09-30T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-03T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-05T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_771",
+	"Mat_khau": "HS_771"
+}

@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Phạm bùi Táo",
+	"Ma_so": "HS_599",
+	"CMND": "080570757",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-07-15T17:00:00.000Z",
+	"Dia_chi": "189 Bạch hữu Kiếm,Phường 3,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.2",
+		"Ma_so": "LOP_9.2",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-08T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-14T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-14T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_599",
+	"Mat_khau": "HS_599"
+}

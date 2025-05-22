@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Quách thị Dũng",
+	"Ma_so": "HS_226",
+	"CMND": "010610310",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-07-04T17:00:00.000Z",
+	"Dia_chi": "140 Phí tiến phi Nhung,Phường 5,Quận 5, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.2",
+		"Ma_so": "LOP_7.2",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-19T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_226",
+	"Mat_khau": "HS_226"
+}

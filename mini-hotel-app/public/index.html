@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Hotel - Quản lý khách sạn</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; background-color: #f9f9f9; }
+    h1, h2 { color: #2c3e50; }
+    label { display: block; margin: 1rem 0 0.5rem; }
+    input, button, select { padding: 0.5rem; font-size: 1rem; margin-right: 1rem; }
+    table { margin-top: 1.5rem; border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 0.75rem; text-align: left; }
+    th { background-color: #f0f0f0; }
+    section { margin-bottom: 3rem; }
+  </style>
+</head>
+<body>
+  <h1>Quản lý Mini Hotel</h1>
+
+  <section>
+    <h2>1. Tra cứu phòng trống</h2>
+    <form id="searchForm">
+      <label for="date">Chọn ngày:</label>
+      <input type="date" id="date" name="date" required />
+      <button type="submit">Xem phòng trống</button>
+    </form>
+    <table id="resultTable" style="display:none;">
+      <thead>
+        <tr>
+          <th>Số phòng</th>
+          <th>Loại</th>
+          <th>Sức chứa</th>
+          <th>Giá</th>
+          <th>Tiện nghi</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>2. Thống kê doanh thu theo tháng</h2>
+    <form id="revenueForm">
+      <label for="month">Chọn tháng:</label>
+      <input type="month" id="month" name="month" required />
+      <button type="submit">Xem thống kê</button>
+    </form>
+    <table id="revenueTable" style="display:none;">
+      <thead>
+        <tr>
+          <th>Loại phòng</th>
+          <th>Doanh thu (VND)</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>3. Quản lý phiếu thuê phòng</h2>
+    <form id="rentalSearchForm">
+      <label for="roomId">Số phòng:</label>
+      <input type="text" id="roomId" name="roomId" />
+      <label for="rentalDate">Ngày thuê:</label>
+      <input type="date" id="rentalDate" name="rentalDate" />
+      <label for="customerName">Tên khách hàng:</label>
+      <input type="text" id="customerName" name="customerName" />
+      <button type="submit">Tra cứu</button>
+    </form>
+    <table id="rentalTable" style="display:none;">
+      <thead>
+        <tr>
+          <th>Số phòng</th>
+          <th>Ngày nhận</th>
+          <th>Ngày trả</th>
+          <th>Khách hàng</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <script>
+    const form = document.getElementById('searchForm');
+    const table = document.getElementById('resultTable');
+    const tbody = table.querySelector('tbody');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const date = document.getElementById('date').value;
+      const res = await fetch(`/customer/available?date=${date}`);
+      const rooms = await res.json();
+
+      tbody.innerHTML = '';
+      if (rooms.length > 0) {
+        rooms.forEach(room => {
+          const row = `<tr>
+            <td>${room.id}</td>
+            <td>${room.type}</td>
+            <td>${room.maxGuests}</td>
+            <td>${room.price.toLocaleString('vi-VN')} VND</td>
+            <td>${room.facilities.join(', ')}</td>
+          </tr>`;
+          tbody.innerHTML += row;
+        });
+        table.style.display = 'table';
+      } else {
+        tbody.innerHTML = '<tr><td colspan="5">Không còn phòng trống trong ngày này.</td></tr>';
+        table.style.display = 'table';
+      }
+    });
+
+    const revenueForm = document.getElementById('revenueForm');
+    const revenueTable = document.getElementById('revenueTable');
+    const revenueBody = revenueTable.querySelector('tbody');
+
+    revenueForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const month = document.getElementById('month').value;
+      const res = await fetch(`/admin/revenue?month=${month}`);
+      const data = await res.json();
+
+      revenueBody.innerHTML = '';
+      if (Object.keys(data).length > 0) {
+        Object.entries(data).forEach(([type, revenue]) => {
+          const row = `<tr>
+            <td>${type}</td>
+            <td>${revenue.toLocaleString('vi-VN')} VND</td>
+          </tr>`;
+          revenueBody.innerHTML += row;
+        });
+        revenueTable.style.display = 'table';
+      } else {
+        revenueBody.innerHTML = '<tr><td colspan="2">Không có dữ liệu doanh thu trong tháng này.</td></tr>';
+        revenueTable.style.display = 'table';
+      }
+    });
+
+    const rentalSearchForm = document.getElementById('rentalSearchForm');
+    const rentalTable = document.getElementById('rentalTable');
+    const rentalBody = rentalTable.querySelector('tbody');
+
+    rentalSearchForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const roomId = document.getElementById('roomId').value;
+      const rentalDate = document.getElementById('rentalDate').value;
+      const customerName = document.getElementById('customerName').value;
+
+      const query = new URLSearchParams();
+      if (roomId) query.append('roomId', roomId);
+      if (rentalDate) query.append('rentalDate', rentalDate);
+      if (customerName) query.append('customerName', customerName);
+
+      const res = await fetch(`/admin/rentals/search?${query.toString()}`);
+      const data = await res.json();
+
+      rentalBody.innerHTML = '';
+      if (data.length > 0) {
+        data.forEach(r => {
+          const row = `<tr>
+            <td>${r.roomId}</td>
+            <td>${r.checkIn}</td>
+            <td>${r.checkOut}</td>
+            <td>${r.customers.map(c => `${c.name} (${c.id})`).join(', ')}</td>
+          </tr>`;
+          rentalBody.innerHTML += row;
+        });
+        rentalTable.style.display = 'table';
+      } else {
+        rentalBody.innerHTML = '<tr><td colspan="4">Không tìm thấy phiếu thuê nào.</td></tr>';
+        rentalTable.style.display = 'table';
+      }
+    });
+  </script>
+</body>
+</html>

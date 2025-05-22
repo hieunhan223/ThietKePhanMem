@@ -1,0 +1,8 @@
+[
+  {
+    "roomId": "101",
+    "checkIn": "2025-05-20",
+    "checkOut": "2025-05-22",
+    "customers": [{ "name": "Nguyen Van A", "idCard": "123456789" }]
+  }
+]

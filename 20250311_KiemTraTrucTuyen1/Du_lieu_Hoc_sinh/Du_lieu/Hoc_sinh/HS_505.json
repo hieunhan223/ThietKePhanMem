@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Hồ như Thiện",
+	"Ma_so": "HS_505",
+	"CMND": "070860473",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-09-16T17:00:00.000Z",
+	"Dia_chi": "469 Trang ngọc tuấn Khoa,Phường 1,Quận 6, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.5",
+		"Ma_so": "LOP_8.5",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-16T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_505",
+	"Mat_khau": "HS_505"
+}

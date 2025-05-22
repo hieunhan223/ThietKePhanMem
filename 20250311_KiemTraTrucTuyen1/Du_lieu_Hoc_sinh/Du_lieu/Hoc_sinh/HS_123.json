@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Mai thành Khánh",
+	"Ma_so": "HS_123",
+	"CMND": "020812608",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-12-11T17:00:00.000Z",
+	"Dia_chi": "316 Châu kỳ Sơn,Phường 2,Quận 12, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.4",
+		"Ma_so": "LOP_6.4",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-05T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-03T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_123",
+	"Mat_khau": "HS_123"
+}

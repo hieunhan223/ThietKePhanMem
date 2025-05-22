@@ -1,0 +1,32 @@
+{
+	"Ho_ten": "Hứa phước Nguyên",
+	"Ma_so": "HS_736",
+	"CMND": "020456321",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-04-16T17:00:00.000Z",
+	"Dia_chi": "399 Phùng đắc trầm Long,Phường 2,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.6",
+		"Ma_so": "LOP_9.6",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-02T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-11-01T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-02T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_736",
+	"Mat_khau": "HS_736"
+}

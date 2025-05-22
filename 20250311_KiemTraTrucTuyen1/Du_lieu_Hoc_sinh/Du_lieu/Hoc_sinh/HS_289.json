@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Nguyễn xuân Thiết",
+	"Ma_so": "HS_289",
+	"CMND": "080677271",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2004-04-13T17:00:00.000Z",
+	"Dia_chi": "350 Nguyên kim Trúc,Phường 7,Quận 11, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.3",
+		"Ma_so": "LOP_7.3",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-03T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-08T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-02T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-03T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_289",
+	"Mat_khau": "HS_289"
+}

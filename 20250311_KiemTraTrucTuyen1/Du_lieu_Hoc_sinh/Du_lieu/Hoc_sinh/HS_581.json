@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Lâm triệu trang Đài",
+	"Ma_so": "HS_581",
+	"CMND": "050561503",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2002-11-23T17:00:00.000Z",
+	"Dia_chi": "287 Lâm phước Quyền,Phường 10,Quận 8, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.2",
+		"Ma_so": "LOP_9.2",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-21T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-11-07T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		},
+		{
+			"Ngay": "2018-10-01T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-12T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		}
+	],
+	"Ten_Dang_nhap": "HS_581",
+	"Mat_khau": "HS_581"
+}

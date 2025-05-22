@@ -1,0 +1,19 @@
+{
+	"Ho_ten": "Dương thanh Toàn",
+	"Ma_so": "HS_40",
+	"CMND": "050868677",
+	"Gioi_tinh": "Nữ",
+	"Ngay_sinh": "2005-08-13T17:00:00.000Z",
+	"Dia_chi": "472 Đổ hồng Trúc,Phường 10,Quận Bình tân, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 6.2",
+		"Ma_so": "LOP_6.2",
+		"Khoi": {
+			"Ten": "Khối 6",
+			"Ma_so": "KHOI_6"
+		}
+	},
+	"Danh_sach_Vang": [],
+	"Ten_Dang_nhap": "HS_40",
+	"Mat_khau": "HS_40"
+}

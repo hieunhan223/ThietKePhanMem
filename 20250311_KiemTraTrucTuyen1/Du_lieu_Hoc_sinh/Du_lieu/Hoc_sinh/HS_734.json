@@ -1,0 +1,28 @@
+{
+	"Ho_ten": "Lê minh thục Hiền",
+	"Ma_so": "HS_734",
+	"CMND": "050600357",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2002-02-11T17:00:00.000Z",
+	"Dia_chi": "261 Công quyết Lan,Phường 9,Quận 12, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 9.6",
+		"Ma_so": "LOP_9.6",
+		"Khoi": {
+			"Ten": "Khối 9",
+			"Ma_so": "KHOI_9"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-05T17:00:00.000Z",
+			"Ly_do": "Trốn học"
+		},
+		{
+			"Ngay": "2018-11-06T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_734",
+	"Mat_khau": "HS_734"
+}

@@ -1,0 +1,36 @@
+{
+	"Ho_ten": "Triệu văn Thiều",
+	"Ma_so": "HS_387",
+	"CMND": "020540474",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2003-10-22T17:00:00.000Z",
+	"Dia_chi": "373 Lâm lâm Thăng,Phường 2,Quận 2, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 8.1",
+		"Ma_so": "LOP_8.1",
+		"Khoi": {
+			"Ten": "Khối 8",
+			"Ma_so": "KHOI_8"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-10-13T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-10-12T00:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-03T17:00:00.000Z",
+			"Ly_do": "việc nhà"
+		},
+		{
+			"Ngay": "2018-11-05T17:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_387",
+	"Mat_khau": "HS_387"
+}

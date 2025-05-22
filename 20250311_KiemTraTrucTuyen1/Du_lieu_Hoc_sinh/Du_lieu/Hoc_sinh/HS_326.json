@@ -1,0 +1,24 @@
+{
+	"Ho_ten": "Hoàng văn kiên Trường",
+	"Ma_so": "HS_326",
+	"CMND": "040775573",
+	"Gioi_tinh": "Nam",
+	"Ngay_sinh": "2004-02-15T17:00:00.000Z",
+	"Dia_chi": "421 Cao triệu Long,Phường 8,Quận Bình thạnh, Ho Chi Minh City, Ho Chi Minh, Vietnam",
+	"Lop": {
+		"Ten": "Lớp 7.4",
+		"Ma_so": "LOP_7.4",
+		"Khoi": {
+			"Ten": "Khối 7",
+			"Ma_so": "KHOI_7"
+		}
+	},
+	"Danh_sach_Vang": [
+		{
+			"Ngay": "2018-11-15T00:00:00.000Z",
+			"Ly_do": "Không lý do"
+		}
+	],
+	"Ten_Dang_nhap": "HS_326",
+	"Mat_khau": "HS_326"
+}
