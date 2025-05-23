@@ -51,20 +51,83 @@ class XL_KHACH_SAN {
 
     return { Tong_doanh_thu, Chi_tiet };
   }
+  // Kiểm tra phòng trống
+  Kiem_tra_Phong_trong(CheckIn, CheckOut, Danh_sach_Phong, Danh_sach_Phieu_thue) {
+    const Ngay_check_in = new Date(CheckIn);
+    const Ngay_check_out = new Date(CheckOut);
 
+    // Kiểm tra ngày hợp lệ
+    if (Ngay_check_out <= Ngay_check_in) {
+      return { Phong_trong: [], Loi: "Ngày trả phòng phải sau ngày nhận phòng" };
+    }
+
+    // Lọc các phòng trống
+    const Phong_trong = Danh_sach_Phong.filter((phong) => {
+      const Phieu_thue = Danh_sach_Phieu_thue.filter((phieu) => phieu.Ma_phong === phong.Ma_phong);
+      return !Phieu_thue.some((phieu) => {
+        const CheckIn_hien_tai = new Date(phieu.checkIn);
+        const CheckOut_hien_tai = new Date(phieu.checkOut);
+        // Phòng bị chiếm nếu khoảng thời gian yêu cầu trùng lặp với phiếu thuê
+        return (
+          (Ngay_check_in >= CheckIn_hien_tai && Ngay_check_in < CheckOut_hien_tai) ||
+          (Ngay_check_out > CheckIn_hien_tai && Ngay_check_out <= CheckOut_hien_tai) ||
+          (Ngay_check_in <= CheckIn_hien_tai && Ngay_check_out >= CheckOut_hien_tai)
+        );
+      });
+    });
+
+    return { Phong_trong, Loi: null };
+  }
   // ---------------------------
   // XỬ LÝ GIAO DIỆN
   // ---------------------------
- // Tạo giao diện HTML để tra cứu doanh thu
- Tao_Chuoi_HTML_Tra_cuu_Doanh_thu() {
-  return `
-    <form action='/Nhan_vien/Dang_nhap' method='post' class='form-group'>
-      <label for='Thang'>Chọn tháng (1-12):</label>
-      <input type='number' name='Thang' id='Thang' min='1' max='12' required />
-      <button type='submit' class='btn btn-primary'>Tra cứu doanh thu</button>
-    </form>
-  `;
-}
+  // Tạo giao diện HTML màn hình chính
+  Tao_Chuoi_HTML_Man_hinh_chinh() {
+    return `
+      <div class='container text-center'>
+        <h2>Chào mừng đến với Khách sạn</h2>
+        <p>Vui lòng chọn vai trò của bạn:</p>
+        <div class='btn-group'>
+          <a href='/Khach_hang' class='btn btn-primary'>Khách hàng</a>
+          <a href='/Nhan_vien/Dang_nhap' class='btn btn-success'>Nhân viên</a>
+        </div>
+      </div>
+    `;
+  }
+  // Tạo giao diện HTML để kiểm tra phòng trống
+  Tao_Chuoi_HTML_Kiem_tra_Phong_trong() {
+    const homNay = new Date();
+    const yyyy = homNay.getFullYear();
+    const mm = String(homNay.getMonth() + 1).padStart(2, '0');
+    const dd = String(homNay.getDate()).padStart(2, '0');
+    const ngayHienTai = `${yyyy}-${mm}-${dd}`;
+    return `
+      <div class='container'>
+        <h2>Kiểm tra phòng trống</h2>
+        <form action='/Khach_hang' method='post' class='form-group'>
+          <div class='form-group'>
+            <label for='CheckIn'>Ngày nhận phòng (YYYY-MM-DD):</label>
+            <input type='date' name='CheckIn' id='CheckIn' value='${ngayHienTai}' required />
+          </div>
+          <div class='form-group'>
+            <label for='CheckOut'>Ngày trả phòng (YYYY-MM-DD):</label>
+            <input type='date' name='CheckOut' id='CheckOut' value='${ngayHienTai}' required />
+          </div>
+          <button type='submit' class='btn btn-primary'>Kiểm tra</button>
+        </form>
+      </div>
+    `;
+  }
+  // Tạo giao diện HTML để tra cứu doanh thu
+  Tao_Chuoi_HTML_Tra_cuu_Doanh_thu() {
+    return `
+      <form action='/Nhan_vien/Dang_nhap' method='post' class='form-group'>
+        <label for='Thang'>Chọn tháng (1-12):</label>
+        <input type='number' name='Thang' id='Thang' min='1' max='12' required />
+        <button type='submit' class='btn btn-primary'>Tra cứu doanh thu</button>
+      </form>
+    `;
+  }
   Tao_Chuoi_HTML_Thong_ke(Thang, Tong_doanh_thu, Chi_tiet) {
     let Chuoi_HTML = `
       <h2>Doanh thu tháng ${Thang}</h2>
@@ -92,16 +155,57 @@ class XL_KHACH_SAN {
         </tr>
       `;
     });
-
-    Chuoi_HTML += `
-        </tbody>
-      </table>
-      <h3>Tổng doanh thu: ${Tong_doanh_thu.toLocaleString()} VND</h3>
-      <a href='/'>Quay lại</a>
+    return Chuoi_HTML;
+  }
+  // Tạo chuỗi HTML hiển thị danh sách phòng trống
+  Tao_Chuoi_HTML_Danh_sach_Phong_trong(Phong_trong, CheckIn, CheckOut, Loi) {
+    let Chuoi_HTML = `
+      <div class='container'>
+        <h2>Phòng trống từ ${CheckIn} đến ${CheckOut}</h2>
     `;
 
+    if (Loi) {
+      Chuoi_HTML += `
+        <div class='alert alert-danger'>${Loi}</div>
+        <a href='/Khach_hang' class='btn btn-secondary'>Quay lại</a>
+      `;
+    } else if (Phong_trong.length === 0) {
+      Chuoi_HTML += `
+        <div class='alert alert-warning'>Không có phòng trống trong khoảng thời gian này.</div>
+        <a href='/Khach_hang' class='btn btn-secondary'>Quay lại</a>
+      `;
+    } else {
+      Chuoi_HTML += `
+        <table class='table table-bordered'>
+          <thead>
+            <tr>
+              <th>Mã phòng</th>
+              <th>Loại phòng</th>
+              <th>Số khách tối đa</th>
+              <th>Giá (VND/đêm)</th>
+              <th>Tiện nghi</th>
+            </tr>
+          </thead>
+          <tbody>
+      `;
+      Phong_trong.forEach((phong) => {
+        Chuoi_HTML += `
+          <tr>
+            <td>${phong.Ma_phong}</td>
+            <td>${phong.Loai_Phong}</td>
+            <td>${phong.Khach_toi_da}</td>
+            <td>${phong.Gia.toLocaleString()}</td>
+            <td>${phong.Tien_nghi.join(", ")}</td>
+          </tr>
+        `;
+      });
+      
+    }
+
+    Chuoi_HTML += `</div>`;
     return Chuoi_HTML;
   }
 }
+
 
 module.exports = new XL_KHACH_SAN();
