@@ -3,6 +3,25 @@
     "Ma_phong": "101",
     "checkIn": "2025-05-20",
     "checkOut": "2025-05-22",
-    "Khach_hang": [{ "Ten": "Nguyen Van A", "idCard": "123456789" }]
+    "Khach_hang": [{ "Ten": "Nguyen Van A", "idCard": "123" }]
+  },
+  {
+    "Ma_phong": "101",
+    "checkIn": "2025-05-25",
+    "checkOut": "2025-05-28",
+    "Khach_hang": [{ "Ten": "Nguyen Van B", "idCard": "234" }]
+  },
+  {
+    "Ma_phong": "102",
+    "checkIn": "2025-05-20",
+    "checkOut": "2025-05-22",
+    "Khach_hang": [{ "Ten": "Nguyen Van C", "idCard": "345" }]
+  },
+  {
+    "Ma_phong": "103",
+    "checkIn": "2025-06-20",
+    "checkOut": "2025-06-22",
+    "Khach_hang": [{ "Ten": "Nguyen Van D", "idCard": "456" }]
   }
+  
 ]

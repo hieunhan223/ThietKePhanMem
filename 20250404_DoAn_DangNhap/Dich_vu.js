@@ -53,71 +53,124 @@ function XL_Dang_nhap_GET(req, res) {
    Chuoi_HTML = Khung_HTML.replace("Chuoi_HTML", Chuoi_HTML);
    res.send(Chuoi_HTML);
  }
- function XL_Dang_nhap_POST(req, res) {
-   let Chuoi_HTML;
- 
-   // Kiểm tra nếu có tham số Thang (tức là tra cứu doanh thu)
-   if (req.body.Thang && req.session.Nhan_vien) {
-     const Thang = req.body.Thang;
-     const Du_lieu = XL_KHACH_SAN.Doc_Du_lieu();
-     const { Tong_doanh_thu, Chi_tiet } = XL_KHACH_SAN.Tinh_Doanh_thu_Theo_Thang(
-       Thang,
-       Du_lieu.Danh_sach_Phong,
-       Du_lieu.Danh_sach_Phieu_thue
-     );
- 
-     const Nhan_vien = req.session.Nhan_vien;
-     const Chuoi_Hinh = `<img src='/Media/${Nhan_vien.Ma_so}.png' style='width:60px;height:60px' />`;
-     const Loi_chao = Xu_ly.Tao_Loi_chao(Nhan_vien.Ho_ten);
-     const Chuoi_Loi_chao = Xu_ly.Tao_Chuoi_HTML_Chuoi(Loi_chao);
-     const Chuoi_HTML_Tra_cuu = XL_KHACH_SAN.Tao_Chuoi_HTML_Tra_cuu_Doanh_thu();
- 
-     if (Chi_tiet.length === 0) {
-       Chuoi_HTML = `
-         ${Chuoi_Hinh}
-         ${Chuoi_Loi_chao}
-         ${Chuoi_HTML_Tra_cuu}
-         <h2>Không có dữ liệu doanh thu cho tháng ${Thang}</h2>
-       `;
-     } else {
-       const Chuoi_Thong_ke = XL_KHACH_SAN.Tao_Chuoi_HTML_Thong_ke(Thang, Tong_doanh_thu, Chi_tiet);
-       Chuoi_HTML = `
-         ${Chuoi_Hinh}
-         ${Chuoi_Loi_chao}
-         ${Chuoi_HTML_Tra_cuu}
-         ${Chuoi_Thong_ke}
-       `;
-     }
-   } else {
-     // Xử lý đăng nhập
-     var Doi_tuong_A = req.body;
-     var Nhan_vien = XL_CONG_TY.Dang_nhap(Doi_tuong_A, Danh_sach_Nhan_vien);
-     if (Nhan_vien) {
-       // Lưu thông tin nhân viên vào session
-       req.session.Nhan_vien = {
-         Ma_so: Nhan_vien.Ma_so,
-         Ho_ten: Nhan_vien.Ho_ten,
-         Kq: "OK",
-         Dia_chi_Media: `http://localhost:${PORT}/Media`
-       };
- 
-       const Chuoi_Hinh = `<img src='/Media/${Nhan_vien.Ma_so}.png' style='width:60px;height:60px' />`;
-       const Loi_chao = Xu_ly.Tao_Loi_chao(Nhan_vien.Ho_ten);
-       const Chuoi_Loi_chao = Xu_ly.Tao_Chuoi_HTML_Chuoi(Loi_chao);
-       const Chuoi_HTML_Tra_cuu = XL_KHACH_SAN.Tao_Chuoi_HTML_Tra_cuu_Doanh_thu();
-       Chuoi_HTML = Chuoi_Hinh + Chuoi_Loi_chao + Chuoi_HTML_Tra_cuu;
-     } else {
-       Chuoi_HTML = `
-         <h2>Đăng nhập thất bại</h2>
-         <p>Tài khoản hoặc mật khẩu không đúng.</p>
-         <a href="/Nhan_vien/Dang_nhap">Thử lại</a>
-       `;
-     }
-   }
- 
-   Chuoi_HTML = Khung_HTML.replace("Chuoi_HTML", Chuoi_HTML);
-   res.send(Chuoi_HTML);
- }
+function XL_Dang_nhap_POST(req, res) {
+  let Chuoi_HTML;
+
+  // Kiểm tra nếu có tham số tra cứu phiếu thuê
+  if (req.body.Ma_phong || req.body.Ngay_thue || req.body.Ten_khach) {
+    if (req.session.Nhan_vien) {
+      const { Ma_phong, Ngay_thue, Ten_khach } = req.body;
+      const Du_lieu = XL_KHACH_SAN.Doc_Du_lieu();
+      const Ket_qua = XL_KHACH_SAN.Tra_cuu_Phieu_thue(
+        Ma_phong,
+        Ngay_thue,
+        Ten_khach,
+        Du_lieu.Danh_sach_Phieu_thue,
+        Du_lieu.Danh_sach_Phong
+      );
+
+      const Nhan_vien = req.session.Nhan_vien;
+      const Chuoi_Hinh = `<img src='/Media/${Nhan_vien.Ma_so}.png' style='width:60px;height:60px' />`;
+      const Loi_chao = Xu_ly.Tao_Loi_chao(Nhan_vien.Ho_ten);
+      const Chuoi_Loi_chao = Xu_ly.Tao_Chuoi_HTML_Chuoi(Loi_chao);
+      const Chuoi_HTML_Tra_cuu = XL_KHACH_SAN.Tao_Chuoi_HTML_Tra_cuu_Doanh_thu();
+      const Chuoi_HTML_Tra_cuu_Phieu = XL_KHACH_SAN.Tao_Chuoi_HTML_Tra_cuu_Phieu_thue();
+      const Chuoi_Ket_qua = XL_KHACH_SAN.Tao_Chuoi_HTML_Ket_qua_Tra_cuu_Phieu_thue(Ket_qua);
+
+      Chuoi_HTML = `
+        ${Chuoi_Hinh}
+        ${Chuoi_Loi_chao}
+        <h3>Tra cứu doanh thu</h3>
+        ${Chuoi_HTML_Tra_cuu}
+        <h3>Tra cứu phiếu thuê phòng</h3>
+        ${Chuoi_HTML_Tra_cuu_Phieu}
+        ${Chuoi_Ket_qua}
+      `;
+    } else {
+      Chuoi_HTML = `
+        <h2>Vui lòng đăng nhập để tra cứu</h2>
+        <a href='/Nhan_vien/Dang_nhap'>Đăng nhập</a>
+      `;
+    }
+  }
+  // Kiểm tra nếu có tham số Thang (tức là tra cứu doanh thu)
+  else if (req.body.Thang && req.session.Nhan_vien) {
+    const Thang = req.body.Thang;
+    const Du_lieu = XL_KHACH_SAN.Doc_Du_lieu();
+    const { Tong_doanh_thu, Chi_tiet } = XL_KHACH_SAN.Tinh_Doanh_thu_Theo_Thang(
+      Thang,
+      Du_lieu.Danh_sach_Phong,
+      Du_lieu.Danh_sach_Phieu_thue
+    );
+
+    const Nhan_vien = req.session.Nhan_vien;
+    const Chuoi_Hinh = `<img src='/Media/${Nhan_vien.Ma_so}.png' style='width:60px;height:60px' />`;
+    const Loi_chao = Xu_ly.Tao_Loi_chao(Nhan_vien.Ho_ten);
+    const Chuoi_Loi_chao = Xu_ly.Tao_Chuoi_HTML_Chuoi(Loi_chao);
+    const Chuoi_HTML_Tra_cuu = XL_KHACH_SAN.Tao_Chuoi_HTML_Tra_cuu_Doanh_thu();
+    const Chuoi_HTML_Tra_cuu_Phieu = XL_KHACH_SAN.Tao_Chuoi_HTML_Tra_cuu_Phieu_thue();
+
+    if (Chi_tiet.length === 0) {
+      Chuoi_HTML = `
+        ${Chuoi_Hinh}
+        ${Chuoi_Loi_chao}
+        <h3>Tra cứu doanh thu</h3>
+        ${Chuoi_HTML_Tra_cuu}
+        <h3>Tra cứu phiếu thuê phòng</h3>
+        ${Chuoi_HTML_Tra_cuu_Phieu}
+        <h2>Không có dữ liệu doanh thu cho tháng ${Thang}</h2>
+      `;
+    } else {
+      const Chuoi_Thong_ke = XL_KHACH_SAN.Tao_Chuoi_HTML_Thong_ke(Thang, Tong_doanh_thu, Chi_tiet);
+      Chuoi_HTML = `
+        ${Chuoi_Hinh}
+        ${Chuoi_Loi_chao}
+        <h3>Tra cứu doanh thu</h3>
+        ${Chuoi_HTML_Tra_cuu}
+        <h3>Tra cứu phiếu thuê phòng</h3>
+        ${Chuoi_HTML_Tra_cuu_Phieu}
+        ${Chuoi_Thong_ke}
+      `;
+    }
+  } else {
+    // Xử lý đăng nhập
+    var Doi_tuong_A = req.body;
+    var Nhan_vien = XL_CONG_TY.Dang_nhap(Doi_tuong_A, Danh_sach_Nhan_vien);
+    if (Nhan_vien) {
+      // Lưu thông tin nhân viên vào session
+      req.session.Nhan_vien = {
+        Ma_so: Nhan_vien.Ma_so,
+        Ho_ten: Nhan_vien.Ho_ten,
+        Kq: "OK",
+        Dia_chi_Media: `http://localhost:${PORT}/Media`
+      };
+
+      const Chuoi_Hinh = `<img src='/Media/${Nhan_vien.Ma_so}.png' style='width:60px;height:60px' />`;
+      const Loi_chao = Xu_ly.Tao_Loi_chao(Nhan_vien.Ho_ten);
+      const Chuoi_Loi_chao = Xu_ly.Tao_Chuoi_HTML_Chuoi(Loi_chao);
+      const Chuoi_HTML_Tra_cuu = XL_KHACH_SAN.Tao_Chuoi_HTML_Tra_cuu_Doanh_thu();
+      const Chuoi_HTML_Tra_cuu_Phieu = XL_KHACH_SAN.Tao_Chuoi_HTML_Tra_cuu_Phieu_thue();
+      Chuoi_HTML = `
+        ${Chuoi_Hinh}
+        ${Chuoi_Loi_chao}
+        <h3>Tra cứu doanh thu</h3>
+        ${Chuoi_HTML_Tra_cuu}
+        <h3>Tra cứu phiếu thuê phòng</h3>
+        ${Chuoi_HTML_Tra_cuu_Phieu}
+      `;
+    } else {
+      Chuoi_HTML = `
+        <h2>Đăng nhập thất bại</h2>
+        <p>Tài khoản hoặc mật khẩu không đúng.</p>
+        <a href="/Nhan_vien/Dang_nhap">Thử lại</a>
+      `;
+    }
+  }
+
+  Chuoi_HTML = Khung_HTML.replace("Chuoi_HTML", Chuoi_HTML);
+  res.send(Chuoi_HTML);
+}
+
 function XL_Thong_ke_Doanh_thu(req, res) {
    const Thang = req.body.Thang;
    const Du_lieu = XL_KHACH_SAN.Doc_Du_lieu();
@@ -140,11 +193,13 @@ function XL_Thong_ke_Doanh_thu(req, res) {
    Chuoi_HTML = Khung_HTML.replace("Chuoi_HTML", Chuoi_HTML);
    res.send(Chuoi_HTML);
  }
+
  function XL_Khach_hang_GET(req, res) {
    let Chuoi_HTML = XL_KHACH_SAN.Tao_Chuoi_HTML_Kiem_tra_Phong_trong();
    Chuoi_HTML = Khung_HTML.replace("Chuoi_HTML", Chuoi_HTML);
    res.send(Chuoi_HTML);
  }
+ 
  function XL_Khach_hang_POST(req, res) {
    const { CheckIn, CheckOut } = req.body;
    const Du_lieu = XL_KHACH_SAN.Doc_Du_lieu();

@@ -1,5 +1,14 @@
 [
-  { "Ma_phong": "101", "Loai_Phong": "A", "Khach_toi_da": 2, "Gia": 500000, "Tien_nghi": ["TV", "WiFi"] },
-  { "Ma_phong": "102", "Loai_Phong": "B", "Khach_toi_da": 3, "Gia": 400000, "Tien_nghi": ["WiFi"] },
-  { "Ma_phong": "103", "Loai_Phong": "C", "Khach_toi_da": 4, "Gia": 300000, "Tien_nghi": ["Quat"] }
+  { "Ma_phong": "101", "Loai_Phong": "VIP1", "Khach_toi_da": 1, "Gia": 500000, "Tien_nghi": ["TV", "WiFi", "May Lanh"] },
+  { "Ma_phong": "102", "Loai_Phong": "VIP2", "Khach_toi_da": 2, "Gia": 700000, "Tien_nghi": ["WiFi", "Bon Tam", "May Lanh"] },
+  { "Ma_phong": "103", "Loai_Phong": "VIP3", "Khach_toi_da": 3, "Gia": 900000, "Tien_nghi": ["TV", "May Lanh"] },
+  { "Ma_phong": "104", "Loai_Phong": "VIP4", "Khach_toi_da": 4, "Gia": 100000, "Tien_nghi": ["WiFi", "Bon Tam", "May Lanh"] },
+  { "Ma_phong": "201", "Loai_Phong": "VIP1", "Khach_toi_da": 1, "Gia": 500000, "Tien_nghi": ["TV", "WiFi", "May Lanh"] },
+  { "Ma_phong": "202", "Loai_Phong": "VIP2", "Khach_toi_da": 2, "Gia": 700000, "Tien_nghi": ["WiFi", "Bon Tam", "May Lanh"] },
+  { "Ma_phong": "203", "Loai_Phong": "VIP3", "Khach_toi_da": 3, "Gia": 900000, "Tien_nghi": ["TV", "May Lanh"] },
+  { "Ma_phong": "204", "Loai_Phong": "VIP4", "Khach_toi_da": 4, "Gia": 100000, "Tien_nghi": ["WiFi", "Bon Tam", "May Lanh", "Ban Cong"] },
+  { "Ma_phong": "301", "Loai_Phong": "VIP1", "Khach_toi_da": 1, "Gia": 500000, "Tien_nghi": ["TV", "WiFi", "May Lanh"] },
+  { "Ma_phong": "302", "Loai_Phong": "VIP2", "Khach_toi_da": 2, "Gia": 700000, "Tien_nghi": ["WiFi", "Bon Tam", "May Lanh"] },
+  { "Ma_phong": "303", "Loai_Phong": "VIP3", "Khach_toi_da": 3, "Gia": 900000, "Tien_nghi": ["TV", "May Lanh"] },
+  { "Ma_phong": "304", "Loai_Phong": "VIP4", "Khach_toi_da": 4, "Gia": 100000, "Tien_nghi": ["WiFi", "Bon Tam", "May Lanh", "Ban Cong"] }
 ]

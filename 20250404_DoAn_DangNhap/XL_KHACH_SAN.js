@@ -25,7 +25,7 @@ class XL_KHACH_SAN {
 
   Tinh_Doanh_thu_Theo_Thang(Thang, Danh_sach_Phong, Danh_sach_Phieu_thue) {
     let Tong_doanh_thu = 0;
-    const Chi_tiet = [];
+    const Phong_Thong_ke = {};    
 
     Danh_sach_Phieu_thue.forEach((phieu) => {
       const checkIn = new Date(phieu.checkIn);
@@ -38,17 +38,23 @@ class XL_KHACH_SAN {
         if (Phong) {
           const Doanh_thu = So_ngay_thue * Phong.Gia;
           Tong_doanh_thu += Doanh_thu;
-          Chi_tiet.push({
-            Ma_phong: phieu.Ma_phong,
-            Loai_Phong: Phong.Loai_Phong,
-            So_ngay_thue,
-            Gia: Phong.Gia,
-            Doanh_thu,
-          });
+
+          // Aggregate data for the room
+          if (!Phong_Thong_ke[phieu.Ma_phong]) {
+            Phong_Thong_ke[phieu.Ma_phong] = {
+              Ma_phong: phieu.Ma_phong,
+              Loai_Phong: Phong.Loai_Phong,
+              Gia: Phong.Gia,
+              So_ngay_thue: 0,
+              Doanh_thu: 0,
+            };
+          }
+          Phong_Thong_ke[phieu.Ma_phong].So_ngay_thue += So_ngay_thue;
+          Phong_Thong_ke[phieu.Ma_phong].Doanh_thu += Doanh_thu;
         }
       }
     });
-
+    const Chi_tiet = Object.values(Phong_Thong_ke);
     return { Tong_doanh_thu, Chi_tiet };
   }
   // Kiểm tra phòng trống
@@ -77,6 +83,46 @@ class XL_KHACH_SAN {
     });
 
     return { Phong_trong, Loi: null };
+  }
+  // Tra cứu phiếu thuê theo tiêu chí
+  Tra_cuu_Phieu_thue(Ma_phong, Ngay_thue, Ten_khach, Danh_sach_Phieu_thue, Danh_sach_Phong) {
+    let Ket_qua = Danh_sach_Phieu_thue;
+
+    // Lọc theo Mã phòng (nếu có)
+    if (Ma_phong) {
+      Ket_qua = Ket_qua.filter((phieu) => phieu.Ma_phong.toLowerCase().includes(Ma_phong.toLowerCase()));
+    }
+
+    // Lọc theo Ngày thuê (nếu có)
+    if (Ngay_thue) {
+      const Ngay_tra_cuu = new Date(Ngay_thue);
+      Ket_qua = Ket_qua.filter((phieu) => {
+        const CheckIn = new Date(phieu.checkIn);
+        const CheckOut = new Date(phieu.checkOut);
+        return Ngay_tra_cuu >= CheckIn && Ngay_tra_cuu <= CheckOut;
+      });
+    }
+
+    // Lọc theo Tên khách hàng (nếu có)
+    if (Ten_khach) {
+      Ket_qua = Ket_qua.filter((phieu) =>
+        phieu.Khach_hang.some((kh) => kh.Ten.toLowerCase().includes(Ten_khach.toLowerCase()))
+      );
+    }
+
+    // Thêm thông tin phòng vào kết quả
+    Ket_qua = Ket_qua.map((phieu) => {
+      const Phong = Danh_sach_Phong.find((p) => p.Ma_phong === phieu.Ma_phong);
+      return {
+        Ma_phong: phieu.Ma_phong,
+        Loai_Phong: Phong ? Phong.Loai_Phong : "Không xác định",
+        CheckIn: phieu.checkIn,
+        CheckOut: phieu.checkOut,
+        Khach_hang: phieu.Khach_hang.map((kh) => kh.Ten).join(", "),
+      };
+    });
+
+    return Ket_qua;
   }
   // ---------------------------
   // XỬ LÝ GIAO DIỆN
@@ -122,9 +168,11 @@ class XL_KHACH_SAN {
   Tao_Chuoi_HTML_Tra_cuu_Doanh_thu() {
     return `
       <form action='/Nhan_vien/Dang_nhap' method='post' class='form-group'>
-        <label for='Thang'>Chọn tháng (1-12):</label>
-        <input type='number' name='Thang' id='Thang' min='1' max='12' required />
-        <button type='submit' class='btn btn-primary'>Tra cứu doanh thu</button>
+        <div class='container'>
+            <label for='Thang'>Chọn tháng (1-12):</label>
+            <input type='number' name='Thang' id='Thang' min='1' max='12' required />
+            <button type='submit' class='btn btn-primary'>Tra cứu doanh thu</button>
+        </div>        
       </form>
     `;
   }
@@ -200,6 +248,78 @@ class XL_KHACH_SAN {
         `;
       });
       
+    }
+
+    Chuoi_HTML += `</div>`;
+    return Chuoi_HTML;
+  }
+  // Tạo giao diện HTML để tra cứu phiếu thuê
+  Tao_Chuoi_HTML_Tra_cuu_Phieu_thue() {
+    const homNay = new Date();
+    const yyyy = homNay.getFullYear();
+    const mm = String(homNay.getMonth() + 1).padStart(2, '0');
+    const dd = String(homNay.getDate()).padStart(2, '0');
+    const ngayHienTai = `${yyyy}-${mm}-${dd}`;
+    return `
+      <div class='container'>        
+        <form action='/Nhan_vien/Dang_nhap' method='post' class='form-group'>
+          <div class='form-group'>
+            <label for='Ma_phong'>Mã phòng:</label>
+            <input type='text' name='Ma_phong' id='Ma_phong' placeholder='Nhập mã phòng (VD: 101)' />
+          </div>
+          <div class='form-group'>
+            <label for='Ngay_thue'>Ngày thuê:</label>
+            <input type='date' name='Ngay_thue' id='Ngay_thue' />
+          </div>
+          <div class='form-group'>
+            <label for='Ten_khach'>Tên khách hàng:</label>
+            <input type='text' name='Ten_khach' id='Ten_khach' placeholder='Nhập tên khách hàng' />
+          </div>
+          <button type='submit' class='btn btn-primary'>Tra cứu</button>
+        </form>
+      </div>
+    `;
+  }
+  // Tạo chuỗi HTML hiển thị kết quả tra cứu phiếu thuê
+  Tao_Chuoi_HTML_Ket_qua_Tra_cuu_Phieu_thue(Ket_qua) {
+    let Chuoi_HTML = `
+      <div class='container'>
+        <h2>Kết quả tra cứu phiếu thuê</h2>
+    `;
+
+    if (Ket_qua.length === 0) {
+      Chuoi_HTML += `
+        <div class='alert alert-warning'>Không tìm thấy phiếu thuê phù hợp.</div>        
+      `;
+    } else {
+      Chuoi_HTML += `
+        <table class='table table-bordered'>
+          <thead>
+            <tr>
+              <th>Mã phòng</th>
+              <th>Loại phòng</th>
+              <th>Ngày nhận phòng</th>
+              <th>Ngày trả phòng</th>
+              <th>Khách hàng</th>
+            </tr>
+          </thead>
+          <tbody>
+      `;
+      Ket_qua.forEach((phieu) => {
+        Chuoi_HTML += `
+          <tr>
+            <td>${phieu.Ma_phong}</td>
+            <td>${phieu.Loai_Phong}</td>
+            <td>${phieu.CheckIn}</td>
+            <td>${phieu.CheckOut}</td>
+            <td>${phieu.Khach_hang}</td>
+          </tr>
+        `;
+      });
+      Chuoi_HTML += `
+          </tbody>
+        </table>        
+      `;
     }
 
     Chuoi_HTML += `</div>`;
