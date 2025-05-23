@@ -1,4 +1,5 @@
 const EXPRESS=require("express")
+const SESSION = require("express-session");
 const PORT=1000
 const XL_CONG_TY=require("./XL_CONG_TY")
 const XL_NHAN_VIEN=require("./XL_NHAN_VIEN")
@@ -11,6 +12,13 @@ const Dich_vu=EXPRESS()
 Dich_vu.use("/Media",EXPRESS.static('Media'))
 Dich_vu.use(EXPRESS.urlencoded())
 Dich_vu.use(EXPRESS.json())
+Dich_vu.use(
+   SESSION({
+     secret: "123", // Thay bằng chuỗi bí mật an toàn
+     resave: false,
+     saveUninitialized: false,
+   })
+ );
 Dich_vu.use((req,res,next)=>{
    res.setHeader("Access-Control-Allow-Origin", '*')
    res.setHeader("Access-Control-Allow-Headers", 'origin,Content-Type,Accept')
@@ -28,82 +36,99 @@ function XL_Khoi_dong(req,res){
    Chuoi_HTML=Khung_HTML.replace("Chuoi_HTML",Chuoi_HTML)
    res.send(Chuoi_HTML)
 }
-function XL_Tao_Loi_chao(req,res){
-   var Ho_ten=Xu_ly.Nhap_Ho_ten(req)
 
-   var Loi_chao=Xu_ly.Tao_Loi_chao(Ho_ten)
-   
-   var Chuoi_HTML=Xu_ly.Tao_Chuoi_HTML_Nhap_lieu_Ho_ten(Ho_ten) 
-               + Xu_ly.Tao_Chuoi_HTML_Loi_chao(Loi_chao)
-   Chuoi_HTML=Khung_HTML.replace("Chuoi_HTML",Chuoi_HTML)
-   res.send(Chuoi_HTML)
-}
-
-//===== Dịch vụ của Nhân viên ====
-Dich_vu.post("/Nhan_vien/Dang_nhap",(req,res)=>{
-   var Doi_tuong_A=req.body
-   var Doi_tuong_B={Kq:'NOT_OK'}
-   var Nhan_vien= XL_CONG_TY.Dang_nhap(Doi_tuong_A,Danh_sach_Nhan_vien)
-   if (Nhan_vien){
-      Doi_tuong_B=JSON.parse(JSON.stringify(Nhan_vien))
-      Doi_tuong_B.Kq='OK'
-      Doi_tuong_B.Dia_chi_Media=`http://localhost:${PORT}/Media`  
-      
-      const Chuoi_Hinh = `<img src='/Media/${Doi_tuong_B.Ma_so}.png' style='width:60px;height:60px' />`;
-      const Loi_chao = Xu_ly.Tao_Loi_chao(Doi_tuong_B.Ho_ten);
-      const Chuoi_Loi_chao = Xu_ly.Tao_Chuoi_HTML_Chuoi(Loi_chao);
-      Chuoi_HTML = Chuoi_Hinh + Chuoi_Loi_chao;
-   }
-   else {
-      // Nếu sai tài khoản/mật khẩu thì báo lỗi
-      var Chuoi_HTML = `
+function XL_Dang_nhap(req, res) {
+   var Chuoi_HTML;
+ 
+   // Kiểm tra nếu có tham số Thang (tức là tra cứu doanh thu)
+   if (req.body.Thang && req.session.Nhan_vien) {
+     const Thang = req.body.Thang;
+     const Du_lieu = XL_KHACH_SAN.Doc_Du_lieu();
+     const { Tong_doanh_thu, Chi_tiet } = XL_KHACH_SAN.Tinh_Doanh_thu_Theo_Thang(
+       Thang,
+       Du_lieu.Danh_sach_Phong,
+       Du_lieu.Danh_sach_Phieu_thue
+     );
+ 
+     const Nhan_vien = req.session.Nhan_vien;
+     const Chuoi_Hinh = `<img src='/Media/${Nhan_vien.Ma_so}.png' style='width:60px;height:60px' />`;
+     const Loi_chao = Xu_ly.Tao_Loi_chao(Nhan_vien.Ho_ten);
+     const Chuoi_Loi_chao = Xu_ly.Tao_Chuoi_HTML_Chuoi(Loi_chao);
+     const Chuoi_HTML_Tra_cuu = XL_KHACH_SAN.Tao_Chuoi_HTML_Tra_cuu_Doanh_thu();
+ 
+     if (Chi_tiet.length === 0) {
+       Chuoi_HTML = `
+         ${Chuoi_Hinh}
+         ${Chuoi_Loi_chao}
+         ${Chuoi_HTML_Tra_cuu}
+         <h2>Không có dữ liệu doanh thu cho tháng ${Thang}</h2>
+       `;
+     } else {
+       const Chuoi_Thong_ke = XL_KHACH_SAN.Tao_Chuoi_HTML_Thong_ke(Thang, Tong_doanh_thu, Chi_tiet);
+       Chuoi_HTML = `
+         ${Chuoi_Hinh}
+         ${Chuoi_Loi_chao}
+         ${Chuoi_HTML_Tra_cuu}
+         ${Chuoi_Thong_ke}
+       `;
+     }
+   } else {
+     // Xử lý đăng nhập
+     var Doi_tuong_A = req.body;
+     var Nhan_vien = XL_CONG_TY.Dang_nhap(Doi_tuong_A, Danh_sach_Nhan_vien);
+     if (Nhan_vien) {
+       // Lưu thông tin nhân viên vào session
+       req.session.Nhan_vien = {
+         Ma_so: Nhan_vien.Ma_so,
+         Ho_ten: Nhan_vien.Ho_ten,
+         Kq: "OK",
+         Dia_chi_Media: `http://localhost:${PORT}/Media`
+       };
+ 
+       const Chuoi_Hinh = `<img src='/Media/${Nhan_vien.Ma_so}.png' style='width:60px;height:60px' />`;
+       const Loi_chao = Xu_ly.Tao_Loi_chao(Nhan_vien.Ho_ten);
+       const Chuoi_Loi_chao = Xu_ly.Tao_Chuoi_HTML_Chuoi(Loi_chao);
+       const Chuoi_HTML_Tra_cuu = XL_KHACH_SAN.Tao_Chuoi_HTML_Tra_cuu_Doanh_thu();
+       Chuoi_HTML = Chuoi_Hinh + Chuoi_Loi_chao + Chuoi_HTML_Tra_cuu;
+     } else {
+       Chuoi_HTML = `
          <h2>Đăng nhập thất bại</h2>
          <p>Tài khoản hoặc mật khẩu không đúng.</p>
          <a href="/">Thử lại</a>
-      `;
-      
+       `;
+     }
    }
-   const Chuoi_HTML = Khung_HTML.replace("Chuoi_HTML", Chuoi_HTML);
+ 
+   Chuoi_HTML = Khung_HTML.replace("Chuoi_HTML", Chuoi_HTML);
    res.send(Chuoi_HTML);
-})
+ }
+function XL_Thong_ke_Doanh_thu(req, res) {
+   const Thang = req.body.Thang;
+   const Du_lieu = XL_KHACH_SAN.Doc_Du_lieu();
+   const { Tong_doanh_thu, Chi_tiet } = XL_KHACH_SAN.Tinh_Doanh_thu_Theo_Thang(
+     Thang,
+     Du_lieu.Danh_sach_Phong,
+     Du_lieu.Danh_sach_Phieu_thue
+   );
+ 
+   let Chuoi_HTML;
+   if (Chi_tiet.length === 0) {
+     Chuoi_HTML = `
+       <h2>Không có dữ liệu doanh thu cho tháng ${Thang}</h2>
+       <a href='/Nhan_vien/Dang_nhap'>Quay lại</a>
+     `;
+   } else {
+     Chuoi_HTML = XL_KHACH_SAN.Tao_Chuoi_HTML_Thong_ke(Thang, Tong_doanh_thu, Chi_tiet);
+   }
+ 
+   Chuoi_HTML = Khung_HTML.replace("Chuoi_HTML", Chuoi_HTML);
+   res.send(Chuoi_HTML);
+ }
 
-// //===== Dịch vụ của Quản lý Đơn vị ====
-// Dich_vu.post("/Quan_ly_Don_vi/Dang_nhap",(req,res)=>{
-//    var Doi_tuong_A=req.body
-//    var Doi_tuong_B={Kq:'NOT_OK'}
-//    var Quan_ly= XL_CONG_TY.Dang_nhap(Doi_tuong_A,Danh_sach_Quan_ly_Don_vi)
-//    if (Quan_ly){
-//       Doi_tuong_B=JSON.parse(JSON.stringify(Quan_ly))
-//       Doi_tuong_B.Kq='OK'
-//       Doi_tuong_B.Dia_chi_Media=`http://localhost:${PORT}/Media`   
-//       Doi_tuong_B.Danh_sach_Nhan_vien=Danh_sach_Nhan_vien.filter(x=>
-//              x.Don_vi.Ma_so==Quan_ly.Don_vi.Ma_so)
-//    }
-//    var Chuoi_JSON=JSON.stringify(Doi_tuong_B)
-//    res.send(Chuoi_JSON)
-// })
-// //===== Dịch vụ của Quản lý Chi nhánh ====
-// Dich_vu.post("/Quan_ly_Chi_nhanh/Dang_nhap",(req,res)=>{
-//    var Doi_tuong_A=req.body
-//    var Doi_tuong_B={Kq:'NOT_OK'}
-//    var Quan_ly= XL_CONG_TY.Dang_nhap(Doi_tuong_A,Danh_sach_Quan_ly_Chi_nhanh)
-//    if (Quan_ly){
-//       Doi_tuong_B=JSON.parse(JSON.stringify(Quan_ly))
-//       Doi_tuong_B.Kq='OK'
-//       Doi_tuong_B.Dia_chi_Media=`http://localhost:${PORT}/Media`   
-//       Doi_tuong_B.Danh_sach_Nhan_vien=Danh_sach_Nhan_vien.filter(x=>
-//              x.Don_vi.Chi_nhanh.Ma_so==Quan_ly.Chi_nhanh.Ma_so)
-//    }
-//    var Chuoi_JSON=JSON.stringify(Doi_tuong_B)
-//    res.send(Chuoi_JSON)
-// })
-// Khai báo và khởi động Ứng dụng 
 // ========== Giao diện trang chủ ==========
-Dich_vu.get("/", (req, res) => {
-  const Chuoi_HTML = Xu_ly.Tao_Chuoi_HTML_Nhap_lieu_Dang_nhap();
-  const Noi_dung_HTML = Khung_HTML.replace("Chuoi_HTML", Chuoi_HTML);
-  res.send(Noi_dung_HTML);
-});
-Dich_vu.get("/",XL_Khoi_dong)
+Dich_vu.get("/", XL_Khoi_dong);
+//===== Dịch vụ của Nhân viên ====
+Dich_vu.post("/Nhan_vien/Dang_nhap",XL_Dang_nhap)
+
 // Bắt đầu server 
 Dich_vu.listen(PORT)

@@ -10,70 +10,98 @@ class XL_KHACH_SAN {
   // ---------------------------
   // XỬ LÝ LƯU TRỮ
   // ---------------------------
-
-  static Doc_Khung_HTML() {
-    const Duong_dan = PATH.join(Thu_muc_HTML, "Khung.html");
-    const Chuoi_HTML = FS.readFileSync(Duong_dan, "utf-8");
-    return Chuoi_HTML;
+  Doc_Du_lieu() {
+    const Duong_dan_Phong = PATH.join(Thu_muc_Khach_san, "Phong.json");
+    const Duong_dan_Phieu_thue = PATH.join(Thu_muc_Khach_san, "Phieu_thue_phong.json");
+    const Danh_sach_Phong = JSON.parse(FS.readFileSync(Duong_dan_Phong, "utf-8"));
+    const Danh_sach_Phieu_thue = JSON.parse(FS.readFileSync(Duong_dan_Phieu_thue, "utf-8"));
+    return { Danh_sach_Phong, Danh_sach_Phieu_thue };
   }
 
-  static Doc_Danh_sach_Phong() {
-    const Duong_dan = PATH.join(Thu_muc_Khach_san, "Phong.json");
-    const Chuoi = FS.readFileSync(Duong_dan, "utf-8");
-    return JSON.parse(Chuoi);
-  }
-
-  static Doc_Danh_sach_Phieu_thue() {
-    const Duong_dan = PATH.join(Thu_muc_Khach_san, "Phieu_thue_phong.json");
-    const Chuoi = FS.readFileSync(Duong_dan, "utf-8");
-    return JSON.parse(Chuoi);
-  }
 
   // ---------------------------
   // XỬ LÝ NGHIỆP VỤ
   // ---------------------------
 
-  static Tra_cuu_Phong_Trong(dsPhong, ngay) {
-    return dsPhong.filter(phong => {
-      return !phong.lichThue.some(p => p.ngay === ngay);
-    });
-  }
+  Tinh_Doanh_thu_Theo_Thang(Thang, Danh_sach_Phong, Danh_sach_Phieu_thue) {
+    let Tong_doanh_thu = 0;
+    const Chi_tiet = [];
 
-  static Thong_ke_Doanh_thu(dsPhieu, thang) {
-    const ketQua = {};
-    dsPhieu.forEach(phieu => {
-      const thangPhieu = phieu.ngayNhan?.substring(0, 7);
-      if (thangPhieu === thang) {
-        const loai = phieu.loaiPhong;
-        if (!ketQua[loai]) ketQua[loai] = 0;
-        ketQua[loai] += phieu.tien;
+    Danh_sach_Phieu_thue.forEach((phieu) => {
+      const checkIn = new Date(phieu.checkIn);
+      const checkOut = new Date(phieu.checkOut);
+      const Thang_phieu = checkIn.getMonth() + 1; // Tháng trong JS từ 0-11, cộng 1 để đúng định dạng 1-12
+
+      if (Thang_phieu === parseInt(Thang)) {
+        const So_ngay_thue = Math.ceil((checkOut - checkIn) / (1000 * 60 * 60 * 24)); // Tính số ngày thuê
+        const Phong = Danh_sach_Phong.find((p) => p.Ma_phong === phieu.Ma_phong);
+        if (Phong) {
+          const Doanh_thu = So_ngay_thue * Phong.Gia;
+          Tong_doanh_thu += Doanh_thu;
+          Chi_tiet.push({
+            Ma_phong: phieu.Ma_phong,
+            Loai_Phong: Phong.Loai_Phong,
+            So_ngay_thue,
+            Gia: Phong.Gia,
+            Doanh_thu,
+          });
+        }
       }
     });
-    return ketQua;
+
+    return { Tong_doanh_thu, Chi_tiet };
   }
 
-  static Tra_cuu_Phieu_Thue(dsPhieu, query) {
-    return dsPhieu.filter(phieu => {
-      const dk1 = !query.roomId || phieu.soPhong.toString() === query.roomId;
-      const dk2 = !query.rentalDate || phieu.ngayNhan === query.rentalDate;
-      const dk3 = !query.customerName || phieu.khachHang.toLowerCase().includes(query.customerName.toLowerCase());
-      return dk1 && dk2 && dk3;
-    });
-  }
-
-
+  // ---------------------------
   // XỬ LÝ GIAO DIỆN
-  static Tao_HTML_Danh_sach_Phong(dsPhong) {
-    return dsPhong.map(p =>
-      `<li>Phòng ${p.soPhong} - ${p.loai} - ${p.tinhTrang}</li>`
-    ).join("\n");
-  }
+  // ---------------------------
+ // Tạo giao diện HTML để tra cứu doanh thu
+ Tao_Chuoi_HTML_Tra_cuu_Doanh_thu() {
+  return `
+    <form action='/Nhan_vien/Dang_nhap' method='post' class='form-group'>
+      <label for='Thang'>Chọn tháng (1-12):</label>
+      <input type='number' name='Thang' id='Thang' min='1' max='12' required />
+      <button type='submit' class='btn btn-primary'>Tra cứu doanh thu</button>
+    </form>
+  `;
+}
+  Tao_Chuoi_HTML_Thong_ke(Thang, Tong_doanh_thu, Chi_tiet) {
+    let Chuoi_HTML = `
+      <h2>Doanh thu tháng ${Thang}</h2>
+      <table class='table table-bordered'>
+        <thead>
+          <tr>
+            <th>Mã phòng</th>
+            <th>Loại phòng</th>
+            <th>Số ngày thuê</th>
+            <th>Giá (VND)</th>
+            <th>Doanh thu (VND)</th>
+          </tr>
+        </thead>
+        <tbody>
+    `;
 
-  static Tao_HTML_Doanh_thu(doi_tuong_doanh_thu) {
-    return Object.entries(doi_tuong_doanh_thu).map(([loai, tien]) =>
-      `<li>Loại: ${loai} - Doanh thu: ${tien.toLocaleString()} VND</li>`
-    ).join("\n");
+    Chi_tiet.forEach((item) => {
+      Chuoi_HTML += `
+        <tr>
+          <td>${item.Ma_phong}</td>
+          <td>${item.Loai_Phong}</td>
+          <td>${item.So_ngay_thue}</td>
+          <td>${item.Gia.toLocaleString()}</td>
+          <td>${item.Doanh_thu.toLocaleString()}</td>
+        </tr>
+      `;
+    });
+
+    Chuoi_HTML += `
+        </tbody>
+      </table>
+      <h3>Tổng doanh thu: ${Tong_doanh_thu.toLocaleString()} VND</h3>
+      <a href='/'>Quay lại</a>
+    `;
+
+    return Chuoi_HTML;
   }
 }
 
-module.exports = XL_KHACH_SAN;
+module.exports = new XL_KHACH_SAN();
