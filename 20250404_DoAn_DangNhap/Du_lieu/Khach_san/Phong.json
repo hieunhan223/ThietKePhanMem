@@ -1,0 +1,5 @@
+[
+  { "Ma_phong": "101", "Loai_Phong": "A", "Khach_toi_da": 2, "Gia": 500000, "Tien_nghi": ["TV", "WiFi"] },
+  { "Ma_phong": "102", "Loai_Phong": "B", "Khach_toi_da": 3, "Gia": 400000, "Tien_nghi": ["WiFi"] },
+  { "Ma_phong": "103", "Loai_Phong": "C", "Khach_toi_da": 4, "Gia": 300000, "Tien_nghi": ["Quat"] }
+]

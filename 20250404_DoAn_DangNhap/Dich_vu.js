@@ -2,6 +2,7 @@ const EXPRESS=require("express")
 const PORT=1000
 const XL_CONG_TY=require("./XL_CONG_TY")
 const XL_NHAN_VIEN=require("./XL_NHAN_VIEN")
+const XL_KHACH_SAN=require("./XL_KHACH_SAN")
 const Xu_ly=require("./XL_3L_Cach_3")
 // const XL_DON_VI=require("./XL_DON_VI")
 // const XL_CHI_NHANH=require("./XL_CHI_NHANH")
@@ -15,9 +16,13 @@ Dich_vu.use((req,res,next)=>{
    res.setHeader("Access-Control-Allow-Headers", 'origin,Content-Type,Accept')
    next()
  })
-// ====== Khai báo biến toàn cục
+// ====== Khai báo biến toàn cục và Khởi động Dữ liệu
 var Khung_HTML=Xu_ly.Doc_Khung_HTML()
-// =========Khai báo  hàm xử lý Biến cố
+var Du_lieu=XL_CONG_TY.Doc_Du_lieu()
+var Danh_sach_Nhan_vien=Du_lieu.Danh_sach_Nhan_vien
+// var Danh_sach_Quan_ly_Don_vi=Du_lieu.Danh_sach_Quan_ly_Don_vi
+// var Danh_sach_Quan_ly_Chi_nhanh=Du_lieu.Danh_sach_Quan_ly_Chi_nhanh
+// =========Khai báo hàm xử lý Biến cố
 function XL_Khoi_dong(req,res){
    var Chuoi_HTML=Xu_ly.Tao_Chuoi_HTML_Nhap_lieu_Dang_nhap()
    Chuoi_HTML=Khung_HTML.replace("Chuoi_HTML",Chuoi_HTML)
@@ -34,14 +39,6 @@ function XL_Tao_Loi_chao(req,res){
    res.send(Chuoi_HTML)
 }
 
-//===== Khởi động Dữ liệu ====
-var Du_lieu=XL_CONG_TY.Doc_Du_lieu()
-var Danh_sach_Nhan_vien=Du_lieu.Danh_sach_Nhan_vien
-// var Danh_sach_Quan_ly_Don_vi=Du_lieu.Danh_sach_Quan_ly_Don_vi
-// var Danh_sach_Quan_ly_Chi_nhanh=Du_lieu.Danh_sach_Quan_ly_Chi_nhanh
-
-//=================
-
 //===== Dịch vụ của Nhân viên ====
 Dich_vu.post("/Nhan_vien/Dang_nhap",(req,res)=>{
    var Doi_tuong_A=req.body
@@ -52,9 +49,10 @@ Dich_vu.post("/Nhan_vien/Dang_nhap",(req,res)=>{
       Doi_tuong_B.Kq='OK'
       Doi_tuong_B.Dia_chi_Media=`http://localhost:${PORT}/Media`  
       
-      var Chuoi_Hinh=`<img src='/Media/${Doi_tuong_B.Ma_so}.png' style='width:60px;height:60px' />   `
-      var Chuoi_HTML=Xu_ly.Tao_Loi_chao(Doi_tuong_B.Ho_ten)
-      
+      const Chuoi_Hinh = `<img src='/Media/${Doi_tuong_B.Ma_so}.png' style='width:60px;height:60px' />`;
+      const Loi_chao = Xu_ly.Tao_Loi_chao(Doi_tuong_B.Ho_ten);
+      const Chuoi_Loi_chao = Xu_ly.Tao_Chuoi_HTML_Chuoi(Loi_chao);
+      Chuoi_HTML = Chuoi_Hinh + Chuoi_Loi_chao;
    }
    else {
       // Nếu sai tài khoản/mật khẩu thì báo lỗi
@@ -65,11 +63,8 @@ Dich_vu.post("/Nhan_vien/Dang_nhap",(req,res)=>{
       `;
       
    }
-   Chuoi_HTML=Xu_ly.Tao_Chuoi_HTML_Chuoi(Chuoi_HTML)+Chuoi_Hinh
-   Chuoi_HTML=Khung_HTML.replace("Chuoi_HTML",Chuoi_HTML)
-   res.send(Chuoi_HTML)
-   var Chuoi_JSON=JSON.stringify(Doi_tuong_B)
-   res.send(Chuoi_JSON)
+   const Chuoi_HTML = Khung_HTML.replace("Chuoi_HTML", Chuoi_HTML);
+   res.send(Chuoi_HTML);
 })
 
 // //===== Dịch vụ của Quản lý Đơn vị ====
@@ -103,6 +98,12 @@ Dich_vu.post("/Nhan_vien/Dang_nhap",(req,res)=>{
 //    res.send(Chuoi_JSON)
 // })
 // Khai báo và khởi động Ứng dụng 
+// ========== Giao diện trang chủ ==========
+Dich_vu.get("/", (req, res) => {
+  const Chuoi_HTML = Xu_ly.Tao_Chuoi_HTML_Nhap_lieu_Dang_nhap();
+  const Noi_dung_HTML = Khung_HTML.replace("Chuoi_HTML", Chuoi_HTML);
+  res.send(Noi_dung_HTML);
+});
 Dich_vu.get("/",XL_Khoi_dong)
 // Bắt đầu server 
 Dich_vu.listen(PORT)
