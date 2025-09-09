@@ -1,0 +1,8 @@
+[
+  {
+    "Ma_phong": "101",
+    "checkIn": "2025-05-20",
+    "checkOut": "2025-05-22",
+    "Khach_hang": [{ "Ten": "Nguyen Van A", "idCard": "123456789" }]
+  }
+]
